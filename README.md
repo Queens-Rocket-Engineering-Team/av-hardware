@@ -17,7 +17,7 @@ Each board follows the structure below:
 - `docs`: Board-specific documentation, datasheets, and other reference materials. 
 - `symbols`: Board-specific schematic symbols.
 - `footprints`: Board-specific PCB footprints.
-- `models`: Bord-specific component 3D-models.
+- `models`: Board-specific component 3D-models.
 
 **Example Structure**
 ```
