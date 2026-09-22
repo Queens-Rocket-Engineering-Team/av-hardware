@@ -11,7 +11,7 @@ This repository contains **schematics**, **PCB layouts**, and related **document
 ## Folder Structure
 Avionics systems are organized into root-level directories (e.g., `power/`, `telemetry/`, etc.). 
 
-Each system contains folders per boards and a respective documentation file `AV-SYSTEM-HW.MD`
+Each system contains folders per boards and a respective documentation file `README.MD`
 
 Each board follows the structure below:
 - `docs`: Board-specific documentation, datasheets, and other reference materials. 
@@ -23,13 +23,13 @@ Each board follows the structure below:
 ```
 av-hardware/
   power/
-    POWER-HW.md
+    README.md
     power-module/
       power-module.kicad_pro
       power-module.kicad_sch
       power-module.kicad_pcb
       docs/
-        POWER-MODULE.md
+        README.md
         datasheets/
       symbols/
       footprints/
@@ -44,6 +44,7 @@ git pull
 ```
 - Keep `main` stable. Never make changes directly on `main`.
 - If contributing, use focused, concise, and descriptive branch names and commit messages. Look at standards below.
+- Commit changes on your branch frequently, don't leave changes hanging.
   
 ### Branches
 Contribute by creating a branch.
