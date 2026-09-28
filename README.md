@@ -45,6 +45,13 @@ git pull
 - Keep `main` stable. Never make changes directly on `main`.
 - If contributing, use focused, concise, and descriptive branch names and commit messages. Look at standards below.
 - Commit changes on your branch frequently, don't leave changes hanging.
+
+### Datasheet Naming Convention
+- For ICs and other active components, download and attach the component's datasheet with the following name convention:
+`[type]-[part-number].pdf`
+
+For example:
+- `ADC-ADS131M04.pdf`
   
 ### Branches
 Contribute by creating a branch.
