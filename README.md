@@ -100,6 +100,10 @@ fix/lcm: Switch to standard CAN transceiver
 dev/camera-module: Initial design
 docs/gps-antenna: Add images to documentation
 ```
+
+## Comments
+- You will likely encounter different schematic "formats" as you look through this repository. As of 2026, we are pushing the use of **hierarchical sheets** to improve modularity and readability. Previously, schematics were designed on a single, large sheet.
+
 If you're ever unsure about anything, reach out to one us leads!!
 
 ---
