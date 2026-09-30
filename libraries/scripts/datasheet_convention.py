@@ -12,7 +12,7 @@ from pydantic import BaseModel
 # run and apply with | python datasheet_convention.py --apply
 
 # UPDATE!! - path to docs/datasheets directory that you want to enforce the convention
-DATASHEET_DIR = Path("../../power/docs/datasheets")
+DATASHEET_DIR = Path("../../telemetry/docs/datasheets")
 MODEL = "gemini-flash-lite-latest"
 
 # set your own key, i am NOT paying for allat
