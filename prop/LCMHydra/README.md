@@ -57,7 +57,6 @@ Description of the substeym and its function.
 ## History
 - Any relevant information on the board's histroy: issues, etc. 
 
-
 ## Status
 
 **Status:** [Development / Review / Shipped / Assembly / Testing / Validated / ]
