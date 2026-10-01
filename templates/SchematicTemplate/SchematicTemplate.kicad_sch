@@ -1,0 +1,204 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5d0263c1-1fe6-4a09-9aab-0edd61f61b2d")
+	(paper "A4")
+	(title_block
+		(title "[BOARD_TECHNICAL_NAME]")
+		(rev "vX")
+		(company "Queen's Rocket Engineering Team")
+		(comment 1 "Contributors: [CONTRIBUTOR NAME], [CONTRIBUTOR NAME], etc.")
+	)
+	(lib_symbols)
+	(text "* with the 'CONNECT' net label, the subsystem sheet pins are connected.\nkeep in mind that this is a generic example."
+		(exclude_from_sim no)
+		(at 117.348 59.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "2d57e264-e991-47a0-b984-40e1426e1a75")
+	)
+	(text "Hiearchial sheets are used to keep ECAD clean, readable, and modular.\n\nEach \"sub-sheet\" represents a subystem or module within the system.\n- e.g. PowerCircuitry, SensorInterface, etc.\n\nConnections are made between subsystems through \"Hiearchial Labels\",\npress [H] in the sub-sheets to add them, and right click the sub-sheet\nin the root sheet to import hiearchial labels/sheet pins."
+		(exclude_from_sim no)
+		(at 70.612 134.874 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "7e173e24-600a-4b9d-a681-94356c6591b0")
+	)
+	(global_label "CONNECT"
+		(shape input)
+		(at 72.39 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bad36eb-828a-4962-985c-7649973ab105")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.7567 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CONNECT"
+		(shape input)
+		(at 161.29 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3783ce7-6da3-407a-ba65-ae2d6cd769e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.6567 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(sheet
+		(at 72.39 67.31)
+		(size 64.77 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a9333738-cf3c-4e45-8346-55d1c3ad3d11")
+		(property "Sheetname" "SUBSYSTEM 1"
+			(at 72.39 66.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subsystem1.kicad_sch"
+			(at 72.39 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EXAMPLE_PIN1" input
+			(at 72.39 88.9 180)
+			(uuid "feb2ce92-7f88-4f34-97d2-4e85fe8b8cb7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ProjectTemplate"
+				(path "/5d0263c1-1fe6-4a09-9aab-0edd61f61b2d"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 67.31)
+		(size 64.77 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c8b06ce3-a548-4dd1-b3b6-c2f5cf24492a")
+		(property "Sheetname" "SUBSYSTEM 2"
+			(at 161.29 66.5984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "subsystem2.kicad_sch"
+			(at 161.29 112.3446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EXAMPLE_PIN2" input
+			(at 161.29 88.9 180)
+			(uuid "0bcc8517-fc3e-4e74-9133-52005f7105e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "ProjectTemplate"
+				(path "/5d0263c1-1fe6-4a09-9aab-0edd61f61b2d"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
