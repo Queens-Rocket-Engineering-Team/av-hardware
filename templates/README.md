@@ -4,7 +4,7 @@ Reusable project templates for new avionics boards.
 
 ## Structure
 
-- `board/` - Standard KiCad board project template.
+- `ecad/` - Standard KiCad board and schematic templates.
 - `docs/` - Standard documentation templates.
 
 Templates provide a consistent starting point for new board designs and writing documentation.
