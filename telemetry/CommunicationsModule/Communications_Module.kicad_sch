@@ -18543,7 +18543,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/1N5819WS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../docs/datasheets/DIODE-1N5819WS.pdf"
 			(at 207.645 245.745 0)
 			(hide yes)
 			(show_name no)
@@ -18837,7 +18837,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/LoRa126XF30_V2.4.pdf"
+		(property "Datasheet" ""
 			(at 52.705 46.355 0)
 			(hide yes)
 			(show_name no)
@@ -18981,7 +18981,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/100R_FB.pdf"
+		(property "Datasheet" ""
 			(at 267.97 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -19176,7 +19176,7 @@
 				(justify right)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/stm32f103cb.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../docs/datasheets/MCU-STM32F103C8.pdf"
 			(at 172.72 130.175 0)
 			(hide yes)
 			(show_name no)
@@ -19746,7 +19746,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/USBC-conn.pdf"
+		(property "Datasheet" ""
 			(at 26.035 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -20062,7 +20062,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/875105242006.pdf"
+		(property "Datasheet" ""
 			(at 35.56 29.845 0)
 			(hide yes)
 			(show_name no)
@@ -20165,7 +20165,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/TPM8837C.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../docs/datasheets/HBRIDGE-TPM8837C.pdf"
 			(at 219.075 249.555 0)
 			(hide yes)
 			(show_name no)
@@ -20473,7 +20473,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/865080340001.pdf"
+		(property "Datasheet" ""
 			(at 177.165 32.385 0)
 			(hide yes)
 			(show_name no)
@@ -20863,7 +20863,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/lm66100.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../docs/datasheets/ID-LM66100.pdf"
 			(at 153.67 212.725 0)
 			(hide yes)
 			(show_name no)
@@ -21884,7 +21884,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/1N5819WS.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../docs/datasheets/DIODE-1N5819WS.pdf"
 			(at 212.725 245.745 0)
 			(hide yes)
 			(show_name no)
@@ -22721,7 +22721,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/lm66100.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../docs/datasheets/ID-LM66100.pdf"
 			(at 55.88 131.445 0)
 			(hide yes)
 			(show_name no)
@@ -23669,7 +23669,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/lm66100.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../docs/datasheets/ID-LM66100.pdf"
 			(at 153.67 250.825 0)
 			(hide yes)
 			(show_name no)
@@ -23995,7 +23995,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/PS1240P02BT.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../docs/datasheets/BUZZER-PS-SERIES.pdf"
 			(at 212.09 259.715 90)
 			(hide yes)
 			(show_name no)
@@ -24553,7 +24553,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/XKB-Connection-TS-1187A-B-A-B.pdf"
+		(property "Datasheet" ""
 			(at 252.095 164.465 0)
 			(hide yes)
 			(show_name no)
@@ -24854,7 +24854,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/X322516MMB4SI.pdf"
+		(property "Datasheet" ""
 			(at 258.445 127.635 0)
 			(hide yes)
 			(show_name no)
@@ -25497,7 +25497,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/iso1042.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../docs/datasheets/CANT-ISO1042.pdf"
 			(at 378.46 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -25813,7 +25813,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/865080343009.pdf"
+		(property "Datasheet" ""
 			(at 26.035 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -25993,7 +25993,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/lm66100.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../docs/datasheets/ID-LM66100.pdf"
 			(at 55.88 150.495 0)
 			(hide yes)
 			(show_name no)
@@ -27113,7 +27113,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/rf2-03e-t-00-50-g.pdf"
+		(property "Datasheet" ""
 			(at 69.215 20.955 0)
 			(hide yes)
 			(show_name no)
@@ -27317,7 +27317,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/WS2812B.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../docs/datasheets/LED-WS2812B.pdf"
 			(at 406.4 48.895 0)
 			(hide yes)
 			(show_name no)
@@ -27897,7 +27897,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/cp2102n.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../docs/datasheets/USB-TO-UART-BRIDGE-CP2102N.pdf"
 			(at 325.755 111.125 0)
 			(hide yes)
 			(show_name no)
@@ -28487,7 +28487,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/WS2812B.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../docs/datasheets/LED-WS2812B.pdf"
 			(at 386.08 48.895 0)
 			(hide yes)
 			(show_name no)
@@ -28873,7 +28873,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/lm66100.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../docs/datasheets/ID-LM66100.pdf"
 			(at 153.67 231.775 0)
 			(hide yes)
 			(show_name no)
@@ -29761,7 +29761,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/XKB-Connection-TS-1187A-B-A-B.pdf"
+		(property "Datasheet" ""
 			(at 241.935 93.345 0)
 			(hide yes)
 			(show_name no)
@@ -29952,7 +29952,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/ds1117.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../docs/datasheets/ID-LM66100.pdf"
 			(at 65.405 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -31197,7 +31197,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "${KIPRJMOD}/../../Datasheets/W25Q128JV.pdf"
+		(property "Datasheet" "${KIPRJMOD}/../docs/datasheets/FLASH-W25Q128JV-DTR.pdf"
 			(at 54.61 94.615 0)
 			(hide yes)
 			(show_name no)
