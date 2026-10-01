@@ -1,0 +1,13 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "0679L0250-05")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/prop/symbols/0679L0250-05.kicad_sym")(options "")(descr ""))
+  (lib (name "ADS131M04IPWR")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/prop/symbols/ADS131M04IPWR.kicad_sym")(options "")(descr ""))
+  (lib (name "CP2102N-A02-GQFN20")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/prop/symbols/CP2102N-A02-GQFN20.kicad_sym")(options "")(descr ""))
+  (lib (name "EdgeConnectorV2")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/prop/symbols/EdgeConnectorV2.kicad_sym")(options "")(descr ""))
+  (lib (name "ISO1044.")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/prop/symbols/ISO1044..kicad_sym")(options "")(descr ""))
+  (lib (name "LM66100DCKR")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/prop/symbols/LM66100DCKR.kicad_sym")(options "")(descr ""))
+  (lib (name "SIT1602BI-73-33N-8-19200")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/prop/symbols/${KIPRJMOD}/../../libraries/prop/symbols/SIT1602BI-73-33N-8-19200.kicad_sym")(options "")(descr ""))
+  (lib (name "SIT8208AI-G3-33E-65.000000T")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/prop/symbols/SIT8208AI-G3-33E-65.000000T.kicad_sym")(options "")(descr ""))
+  (lib (name "SMA6L30A")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/prop/symbols/SMA6L30A.kicad_sym")(options "")(descr ""))
+  (lib (name "TVS-SMF")(type "KiCad")(uri "${KIPRJMOD}/../../libraries/prop/symbols/TVS-SMF.kicad_sym")(options "")(descr ""))
+)
