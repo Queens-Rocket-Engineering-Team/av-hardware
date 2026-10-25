@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "1cbd97ea-0932-4855-a51c-618b43647396")
+	(paper "A4")
+	(title_block
+		(title "STM32F1 Breakout Circuitry")
+		(company "Queen's Rocket Engineering Team")
+		(comment 1 "Contributors: ")
+	)
+	(lib_symbols)
+)

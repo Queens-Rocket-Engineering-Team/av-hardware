@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d8cdfa5f-85f7-4740-a142-0d030222eabc")
+	(paper "A4")
+	(title_block
+		(title "Sensor Interface Circuitry")
+		(company "Queen's Rocket Engineering Team")
+		(comment 1 "Contributors: ")
+	)
+	(lib_symbols)
+)
