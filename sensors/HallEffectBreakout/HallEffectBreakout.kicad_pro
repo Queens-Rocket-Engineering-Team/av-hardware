@@ -661,21 +661,13 @@
         "uuid": "5d0263c1-1fe6-4a09-9aab-0edd61f61b2d"
       }
     ],
-    "used_designators": "#PWR1-2",
+    "used_designators": "#PWR1-2,U1",
     "variants": []
   },
   "sheets": [
     [
       "5d0263c1-1fe6-4a09-9aab-0edd61f61b2d",
       "Root"
-    ],
-    [
-      "a9333738-cf3c-4e45-8346-55d1c3ad3d11",
-      "SUBSYSTEM 1"
-    ],
-    [
-      "c8b06ce3-a548-4dd1-b3b6-c2f5cf24492a",
-      "SUBSYSTEM 2"
     ]
   ],
   "text_variables": {},
