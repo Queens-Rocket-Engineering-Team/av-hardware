@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "LPS27HHWTR") (type "KiCad") (uri "${KIPRJMOD}/footprints/LPS27HHWTR") (options "") (descr ""))
+	(lib (name "LSM6DSV32XTR") (type "KiCad") (uri "${KIPRJMOD}/footprints/LSM6DSV32XTR") (options "") (descr ""))
+)
