@@ -1306,6 +1306,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "review notes:\n- wires instead of labels for some passive connections, \nwe will talk more about this on Sunday"
+		(exclude_from_sim no)
+		(at 216.408 28.194 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7578a87-b436-4929-9f7b-c81e4dbda4fb")
+	)
 	(junction
 		(at 106.68 133.35)
 		(diameter 0)
