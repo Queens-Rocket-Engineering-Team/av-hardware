@@ -1432,8 +1432,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power global)
+		(symbol "Switch:SW_Reed"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1446,19 +1445,18 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+			(property "Reference" "SW"
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
+			(property "Value" "SW_Reed"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1489,7 +1487,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "reed switch"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1500,7 +1498,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "ki_keywords" "reed magnetic switch"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1511,10 +1509,70 @@
 					)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "SW_Reed_0_0"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+						(xy -2.54 0) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 -1.397) (xy 2.286 -1.397)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.159 -1.397)
+					(mid -3.55 0)
+					(end -2.159 1.397)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.159 1.397)
+					(mid 3.55 0)
+					(end 2.159 -1.397)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.159 1.397) (xy -2.159 1.397)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -1.27 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -1525,11 +1583,11 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
+			(symbol "SW_Reed_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1544,9 +1602,33 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
+	)
+	(junction
+		(at 157.48 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07255946-a1d4-4fb5-b090-dc800c7df9a6")
 	)
 	(junction
 		(at 71.12 73.66)
@@ -1579,16 +1661,58 @@
 		(uuid "255d062b-e408-438b-8a6a-48403a3b6466")
 	)
 	(junction
+		(at 187.96 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29c44601-33e2-4e6c-ace2-e2c9fa512374")
+	)
+	(junction
 		(at 71.12 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39c4eaad-aa67-40da-9dca-e25d2794e096")
 	)
 	(junction
-		(at 81.28 66.04)
+		(at 107.95 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6bf02cd0-fda2-4f00-b6d1-fa8bf84845c0")
+		(uuid "3a3a592b-2452-4735-887e-3f830edb0afa")
+	)
+	(junction
+		(at 157.48 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "435722b0-8f2b-4d39-ad8c-e7b11caa93cc")
+	)
+	(junction
+		(at 187.96 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f77a54f-0af4-4bf1-a841-c2683a182892")
+	)
+	(junction
+		(at 92.71 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6616f495-3a0c-4d58-a92c-1f77d1571fb5")
+	)
+	(junction
+		(at 187.96 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e8e4274-a72a-4243-9a9a-346daed0130c")
+	)
+	(junction
+		(at 187.96 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6fbff69d-ffad-4819-a3ad-44f89ca6a0b6")
+	)
+	(junction
+		(at 187.96 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70e13631-780f-4cb9-b978-cb252840c1a2")
 	)
 	(junction
 		(at 57.15 81.28)
@@ -1597,10 +1721,76 @@
 		(uuid "8b431e10-890f-492c-8be2-96238d3af9d5")
 	)
 	(junction
+		(at 157.48 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9445b4cc-8334-40cd-ac4d-90d27a4af198")
+	)
+	(junction
+		(at 157.48 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94cc562a-b342-4f7d-b139-a9d2cf0a4c86")
+	)
+	(junction
+		(at 187.96 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99693af5-f58e-4e07-806e-a50292cde588")
+	)
+	(junction
+		(at 157.48 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b93cac7f-6148-4586-a58f-9b5fd9c71beb")
+	)
+	(junction
+		(at 123.19 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c53c4498-3e9d-48f3-a9c2-78c571f44817")
+	)
+	(junction
+		(at 187.96 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc439598-85cf-43d2-ae71-0f760490f249")
+	)
+	(junction
 		(at 118.11 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd5750f2-6d2c-4f09-aff0-6ce8791291cd")
+	)
+	(junction
+		(at 82.55 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf41646e-dff2-4d2c-95cd-6e125a6563b4")
+	)
+	(junction
+		(at 157.48 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d614a1e2-8bbe-451f-b35e-aefbe2d0e955")
+	)
+	(junction
+		(at 157.48 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e14b3b01-ab95-42b3-a415-5c999d4341bb")
+	)
+	(junction
+		(at 82.55 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6589582-3731-46d9-b9f8-561939ccd5f6")
+	)
+	(junction
+		(at 157.48 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbebc637-086e-45b5-b506-420b6df0ba79")
 	)
 	(wire
 		(pts
@@ -1614,6 +1804,36 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 66.04) (xy 107.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a4d1aa2-a95d-4e69-b07c-62e9035040d7")
+	)
+	(wire
+		(pts
+			(xy 157.48 92.71) (xy 168.91 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edbe118-86de-4217-91c1-a02fe908495e")
+	)
+	(wire
+		(pts
+			(xy 187.96 102.87) (xy 187.96 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "132de878-80f0-4174-af30-504a67679306")
+	)
+	(wire
+		(pts
 			(xy 102.87 88.9) (xy 107.95 88.9)
 		)
 		(stroke
@@ -1621,6 +1841,76 @@
 			(type default)
 		)
 		(uuid "13d588bd-30c5-4a54-a7bb-84792f8c0db2")
+	)
+	(wire
+		(pts
+			(xy 187.96 130.81) (xy 187.96 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19db1bb7-693a-4421-8edb-c795f3bc5de3")
+	)
+	(wire
+		(pts
+			(xy 157.48 52.07) (xy 168.91 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21608169-beae-4872-97ed-d61eabd8760a")
+	)
+	(wire
+		(pts
+			(xy 187.96 48.26) (xy 187.96 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241be496-9e35-4d4b-a3aa-18cf20774b84")
+	)
+	(wire
+		(pts
+			(xy 107.95 30.48) (xy 107.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26bd9622-5192-46d4-97a5-733480c77454")
+	)
+	(wire
+		(pts
+			(xy 123.19 88.9) (xy 118.11 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eecaeb9-f8f8-4ce2-bd36-d7289c5291b3")
+	)
+	(wire
+		(pts
+			(xy 168.91 74.93) (xy 187.96 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "337399bf-267e-404c-81d3-b4b9ff4657ff")
+	)
+	(wire
+		(pts
+			(xy 157.48 52.07) (xy 157.48 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3781fd4e-62d5-4bcc-9909-be54390ba008")
 	)
 	(wire
 		(pts
@@ -1634,13 +1924,63 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 66.04) (xy 81.28 66.04)
+			(xy 157.48 30.48) (xy 107.95 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9e4164-2267-4e13-932f-311bfa6d318a")
+	)
+	(wire
+		(pts
+			(xy 118.11 66.04) (xy 107.95 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "463de2a7-07a2-40a2-aa86-baa1f37e334a")
+	)
+	(wire
+		(pts
+			(xy 157.48 106.68) (xy 157.48 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4724447e-d1f4-4045-82ff-333134536db2")
+	)
+	(wire
+		(pts
+			(xy 157.48 120.65) (xy 168.91 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "499bf282-6d39-4d1a-a482-2e406fca1ea3")
+	)
+	(wire
+		(pts
+			(xy 157.48 92.71) (xy 157.48 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d57f986-9442-4589-857c-6b0b5e6eae8c")
+	)
+	(wire
+		(pts
+			(xy 92.71 88.9) (xy 102.87 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f26eb15-d8be-49ec-936e-2f57f073a5f1")
 	)
 	(wire
 		(pts
@@ -1664,6 +2004,36 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 134.62) (xy 168.91 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ceca66-9d8c-4b0e-a732-7678bdf9af22")
+	)
+	(wire
+		(pts
+			(xy 168.91 88.9) (xy 187.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "543fd2ed-e35d-4bd5-b6dd-ea666b261702")
+	)
+	(wire
+		(pts
+			(xy 157.48 38.1) (xy 157.48 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "560f55a8-ba24-45b7-8533-6ebce061cfc2")
+	)
+	(wire
+		(pts
 			(xy 57.15 73.66) (xy 71.12 73.66)
 		)
 		(stroke
@@ -1671,6 +2041,46 @@
 			(type default)
 		)
 		(uuid "5a7bd14f-ff6d-4807-8cbc-051263c29a52")
+	)
+	(wire
+		(pts
+			(xy 187.96 74.93) (xy 187.96 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "683091fb-d490-4e8e-b605-7e773381b88a")
+	)
+	(wire
+		(pts
+			(xy 157.48 38.1) (xy 168.91 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a009ce-715f-4cd9-9508-1fed29e23efe")
+	)
+	(wire
+		(pts
+			(xy 82.55 88.9) (xy 92.71 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8a4dba-8e22-4d45-90af-a1368bd58aa1")
+	)
+	(wire
+		(pts
+			(xy 157.48 120.65) (xy 157.48 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f5a501f-11cb-45e5-9ab7-7b8d2e4efc9a")
 	)
 	(wire
 		(pts
@@ -1684,7 +2094,37 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 88.9) (xy 118.11 88.9)
+			(xy 157.48 134.62) (xy 123.19 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74da2290-5bf8-406d-b023-547bffc7b447")
+	)
+	(wire
+		(pts
+			(xy 82.55 85.09) (xy 82.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d147ce3-14ee-4ff0-8006-3f2060c5362c")
+	)
+	(wire
+		(pts
+			(xy 123.19 134.62) (xy 123.19 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ff0dd95-0472-4a08-b3df-fb8a46945cf1")
+	)
+	(wire
+		(pts
+			(xy 128.27 88.9) (xy 123.19 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1694,7 +2134,47 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 66.04) (xy 71.12 66.04)
+			(xy 168.91 130.81) (xy 187.96 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816359ee-8c36-4d94-98f8-f577e70c2dbc")
+	)
+	(wire
+		(pts
+			(xy 187.96 88.9) (xy 187.96 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89ee2e40-b5ff-443a-af93-0c2e38ca63fd")
+	)
+	(wire
+		(pts
+			(xy 168.91 144.78) (xy 187.96 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94df4036-8030-4388-af7d-0f083f461699")
+	)
+	(wire
+		(pts
+			(xy 187.96 62.23) (xy 187.96 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee6c488-abe0-4f59-94a8-19eab8ab43dc")
+	)
+	(wire
+		(pts
+			(xy 71.12 66.04) (xy 82.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1704,13 +2184,23 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 88.9) (xy 102.87 88.9)
+			(xy 71.12 88.9) (xy 82.55 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a5082918-f786-4e0f-a455-ba2150fbe24e")
+	)
+	(wire
+		(pts
+			(xy 157.48 64.77) (xy 168.91 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0c93b2d-c4aa-44f3-a929-cedb968008a4")
 	)
 	(wire
 		(pts
@@ -1721,6 +2211,56 @@
 			(type default)
 		)
 		(uuid "b82aac54-285c-48d1-a238-ce50180edb30")
+	)
+	(wire
+		(pts
+			(xy 187.96 116.84) (xy 187.96 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e39034-70d9-4705-9f1a-7382d87eeb75")
+	)
+	(wire
+		(pts
+			(xy 168.91 102.87) (xy 187.96 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99b30e3-8b75-4736-aa9c-e733bc9803e8")
+	)
+	(wire
+		(pts
+			(xy 82.55 73.66) (xy 82.55 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbdf07de-01b6-416a-8925-e5e444b86464")
+	)
+	(wire
+		(pts
+			(xy 157.48 64.77) (xy 157.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee3ecf2-8af1-4672-ae41-b0b604d33ab3")
+	)
+	(wire
+		(pts
+			(xy 168.91 116.84) (xy 187.96 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf252511-4149-4808-8066-21430ba26d6e")
 	)
 	(wire
 		(pts
@@ -1744,6 +2284,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 106.68) (xy 168.91 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1fde52b-2640-43f1-bbd2-d863c6db6635")
+	)
+	(wire
+		(pts
 			(xy 100.33 76.2) (xy 102.87 76.2)
 		)
 		(stroke
@@ -1754,6 +2304,46 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 62.23) (xy 187.96 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65485a3-edec-4f2c-96c1-cd06d904cf6a")
+	)
+	(wire
+		(pts
+			(xy 168.91 48.26) (xy 187.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef363d1-340a-4e40-a8ab-40d42d6c110d")
+	)
+	(wire
+		(pts
+			(xy 157.48 78.74) (xy 157.48 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f27ee6-a415-4628-9f83-f5230490ad83")
+	)
+	(wire
+		(pts
+			(xy 157.48 78.74) (xy 168.91 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe189d3-4f15-48ec-9d78-585b6c17f583")
+	)
+	(wire
+		(pts
 			(xy 107.95 76.2) (xy 102.87 76.2)
 		)
 		(stroke
@@ -1761,6 +2351,16 @@
 			(type default)
 		)
 		(uuid "e06b93bf-97b8-4006-91a2-0e248cca8211")
+	)
+	(wire
+		(pts
+			(xy 187.96 95.25) (xy 187.96 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9fb5c26-3aea-4511-b5fd-843d96d1cb92")
 	)
 	(wire
 		(pts
@@ -1792,6 +2392,26 @@
 		)
 		(uuid "f2d4d4cb-4275-4de3-b269-29ae61fc2b0a")
 	)
+	(wire
+		(pts
+			(xy 92.71 88.9) (xy 92.71 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64e774a-1b69-487b-8a62-86541c545348")
+	)
+	(wire
+		(pts
+			(xy 187.96 95.25) (xy 189.23 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6830898-7811-42ae-a913-6eac4394a358")
+	)
 	(global_label "SIG"
 		(shape input)
 		(at 91.44 76.2 180)
@@ -1818,17 +2438,17 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 152.4 76.2 180)
+		(at 100.33 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "7c62de37-35f9-406b-8ed9-f233879c9c04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.9072 76.2 0)
+			(at 106.8228 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1836,7 +2456,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -1936,20 +2556,68 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "SIG"
 		(shape input)
-		(at 152.4 81.28 180)
+		(at 189.23 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
+		)
+		(uuid "d4873fab-e3f3-40b6-bc70-3821afa94ffc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.2995 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 100.33 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "f5e7addb-e053-4925-9be1-6e8e9cac394c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.8467 81.28 0)
+			(at 106.8833 100.33 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Reed")
+		(at 168.91 43.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "046eebe4-e130-42bf-9174-44c843b73f85")
+		(property "Reference" "SW1"
+			(at 171.45 41.9099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1959,42 +2627,19 @@
 				(justify right)
 			)
 		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0665de68-cbe3-459d-b359-390848931897")
-		(property "Reference" "#PWR02"
-			(at 160.02 92.71 0)
-			(hide yes)
+		(property "Value" "SW_Reed"
+			(at 171.45 44.4499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 160.02 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 86.36 0)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 168.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2005,7 +2650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 86.36 0)
+			(at 168.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2015,8 +2660,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 86.36 0)
+		(property "Description" "reed switch"
+			(at 168.91 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2025,22 +2670,25 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "6bbe3dc4-9b75-4f20-b828-dbecfa225d5b")
 		)
 		(pin "1"
-			(uuid "b9b429be-2dcb-4f6b-b966-faa06e107dd3")
+			(uuid "9a623939-cd0b-4d4a-8405-3b299a73f61b")
 		)
 		(instances
 			(project "reed-level-sensing"
 				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
-					(reference "#PWR02")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 81.28 50.8 180)
+		(lib_id "Switch:SW_Reed")
+		(at 168.91 97.79 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2049,30 +2697,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1184a83f-b63a-4fba-9a70-714c78f4c0b9")
-		(property "Reference" "#PWR01"
-			(at 81.28 44.45 0)
-			(hide yes)
+		(uuid "1288565b-3c51-4207-b20c-08eed32fd65c")
+		(property "Reference" "SW5"
+			(at 171.45 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 81.28 45.72 0)
+		(property "Value" "SW_Reed"
+			(at 171.45 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 81.28 50.8 0)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 168.91 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2083,7 +2732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 50.8 0)
+			(at 168.91 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2093,8 +2742,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 50.8 0)
+		(property "Description" "reed switch"
+			(at 168.91 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2103,14 +2752,509 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "2"
+			(uuid "c8e05ee5-27c9-461a-91a2-2752423ac095")
 		)
 		(pin "1"
-			(uuid "f811e5a7-7b2f-4168-932f-c3509c46f259")
+			(uuid "74914ca5-410c-4e8f-b401-21d2748df8bf")
 		)
 		(instances
 			(project "reed-level-sensing"
 				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
-					(reference "#PWR01")
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Reed")
+		(at 168.91 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18008548-451c-4d4a-bce5-520d2a925cfc")
+		(property "Reference" "SW3"
+			(at 171.45 68.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Reed"
+			(at 171.45 71.1199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 168.91 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "reed switch"
+			(at 168.91 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9f34b9dc-5b12-43c2-860c-4e399d8c5fd5")
+		)
+		(pin "1"
+			(uuid "561acc6b-2b8d-4fdf-b3d2-b0b06122604e")
+		)
+		(instances
+			(project "reed-level-sensing"
+				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Reed")
+		(at 168.91 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1869ff2c-2d99-47b9-84b4-a9929e4c0154")
+		(property "Reference" "SW4"
+			(at 171.45 82.5499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Reed"
+			(at 171.45 85.0899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 168.91 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "reed switch"
+			(at 168.91 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6c0b3a18-334f-42c5-b2cb-3b88a970bb3d")
+		)
+		(pin "1"
+			(uuid "3c44a47b-97bb-472f-a78a-010141af076f")
+		)
+		(instances
+			(project "reed-level-sensing"
+				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a62208d-7543-42b4-aba4-6d4120e12c90")
+		(property "Reference" "R7"
+			(at 160.02 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.702 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a52f5991-70dc-4ad1-b4a4-bdf473afacb6")
+		)
+		(pin "1"
+			(uuid "dfa0002f-f717-45ec-be5e-1cf9f20c6be5")
+		)
+		(instances
+			(project "reed-level-sensing"
+				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d085f70-ca95-43fb-b7e0-6845c08cec24")
+		(property "Reference" "R8"
+			(at 160.02 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.702 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7cea7a5d-55a9-4c83-a140-56c6dfc82505")
+		)
+		(pin "1"
+			(uuid "f0cc3f27-d267-4feb-a6f4-9cca1399d2dc")
+		)
+		(instances
+			(project "reed-level-sensing"
+				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Reed")
+		(at 168.91 139.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26b2d338-6a20-47df-8201-25b7913063d1")
+		(property "Reference" "SW8"
+			(at 171.45 138.4299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Reed"
+			(at 171.45 140.9699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 168.91 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "reed switch"
+			(at 168.91 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ec16cc97-d150-4543-99cc-6165506d8a0d")
+		)
+		(pin "1"
+			(uuid "2af9eb17-b728-4c2a-9b72-fd5c6aca4252")
+		)
+		(instances
+			(project "reed-level-sensing"
+				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29229051-dbc9-494b-ad6b-cfd47c10b181")
+		(property "Reference" "R6"
+			(at 160.02 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.702 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0eb1b87b-61ac-4b82-b05c-186aa66a752b")
+		)
+		(pin "1"
+			(uuid "76a5fd16-5b7b-4d4b-82be-97b55e10a4a1")
+		)
+		(instances
+			(project "reed-level-sensing"
+				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2286,6 +3430,170 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 157.48 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5957f253-ad6c-4e66-abca-79c2e9ad4dff")
+		(property "Reference" "R9"
+			(at 160.02 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.702 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1828e1c1-529b-4aa5-88ec-09d9ad1ff197")
+		)
+		(pin "1"
+			(uuid "df5e7a1b-42e3-4225-93fc-1b979082ad31")
+		)
+		(instances
+			(project "reed-level-sensing"
+				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6257bc18-0a02-49a0-87f6-d59ae01b9cf8")
+		(property "Reference" "R4"
+			(at 160.02 46.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 49.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.702 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "69d3a5ab-1e24-4d66-881a-e47621d1b4da")
+		)
+		(pin "1"
+			(uuid "dfb3543f-8f08-4635-9ce4-f2872cfc7d5b")
+		)
+		(instances
+			(project "reed-level-sensing"
+				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 96.52 76.2 90)
 		(unit 1)
 		(body_style 1)
@@ -2366,7 +3674,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 81.28 54.61 270)
+		(at 82.55 81.28 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2377,29 +3685,29 @@
 		(fields_autoplaced yes)
 		(uuid "6e4b8d06-c213-48d9-b558-8abc5795ed7a")
 		(property "Reference" "D1"
-			(at 83.82 51.7524 90)
+			(at 86.36 81.5974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "LED"
-			(at 83.82 54.2924 90)
+			(at 86.36 84.1374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 81.28 54.61 0)
+			(at 82.55 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2410,7 +3718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 54.61 0)
+			(at 82.55 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2421,7 +3729,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 81.28 54.61 0)
+			(at 82.55 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2432,7 +3740,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 81.28 54.61 0)
+			(at 82.55 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2452,6 +3760,170 @@
 			(project "reed-level-sensing"
 				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Reed")
+		(at 168.91 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81f0060e-eba4-43bb-aadc-53d5374e33cb")
+		(property "Reference" "SW2"
+			(at 171.45 55.8799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Reed"
+			(at 171.45 58.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 168.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "reed switch"
+			(at 168.91 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e2666b02-a51b-4f2d-be4f-c6992d7c75ac")
+		)
+		(pin "1"
+			(uuid "1af2fcea-4c8d-40c3-a756-8400ea604b41")
+		)
+		(instances
+			(project "reed-level-sensing"
+				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Reed")
+		(at 168.91 125.73 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83af735f-f972-49c5-bc79-6db7c3d5afa6")
+		(property "Reference" "SW7"
+			(at 171.45 124.4599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Reed"
+			(at 171.45 126.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 168.91 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "reed switch"
+			(at 168.91 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c6257287-594b-457e-9a3e-b9c088f272da")
+		)
+		(pin "1"
+			(uuid "fa702bd2-108e-4232-9729-3e6d035f0af8")
+		)
+		(instances
+			(project "reed-level-sensing"
+				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -2541,7 +4013,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 81.28 62.23 0)
+		(at 157.48 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2550,9 +4022,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a0f6b539-65fa-4d06-8fac-182b2f0c8df0")
-		(property "Reference" "R2"
-			(at 83.82 60.9599 0)
+		(uuid "8aa9a902-ec40-443e-8587-429a839b0d3a")
+		(property "Reference" "R3"
+			(at 160.02 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2562,8 +4034,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56"
-			(at 83.82 63.4999 0)
+		(property "Value" "5.1k"
+			(at 160.02 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2574,7 +4046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 79.502 62.23 90)
+			(at 155.702 34.29 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2585,7 +4057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 62.23 0)
+			(at 157.48 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2596,7 +4068,89 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 81.28 62.23 0)
+			(at 157.48 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9dab4856-c199-4679-8708-57d1441cea01")
+		)
+		(pin "1"
+			(uuid "08b2712a-e816-49c8-9199-8f23745a4589")
+		)
+		(instances
+			(project "reed-level-sensing"
+				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0f6b539-65fa-4d06-8fac-182b2f0c8df0")
+		(property "Reference" "R2"
+			(at 85.09 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 85.09 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.772 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2616,6 +4170,88 @@
 			(project "reed-level-sensing"
 				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "befa9831-1507-4f86-829d-08f72432cbe8")
+		(property "Reference" "R5"
+			(at 160.02 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.702 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b2a9114e-29dc-4d44-853a-7ba1887e0662")
+		)
+		(pin "1"
+			(uuid "9a18b09d-4167-48db-9d50-b71cffd55e5c")
+		)
+		(instances
+			(project "reed-level-sensing"
+				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2729,7 +4365,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:TPD2E2U06DCK")
-		(at 160.02 78.74 0)
+		(at 92.71 102.87 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2740,7 +4376,7 @@
 		(fields_autoplaced yes)
 		(uuid "d711a503-dc32-4f44-995f-552ff8216935")
 		(property "Reference" "U2"
-			(at 163.83 77.4699 0)
+			(at 88.9 104.1401 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2751,7 +4387,7 @@
 			)
 		)
 		(property "Value" "TPD2E2U06DCK"
-			(at 163.83 80.0099 0)
+			(at 88.9 101.6001 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2762,7 +4398,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 139.7 85.09 0)
+			(at 113.03 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2773,7 +4409,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tpd2e2u06.pdf"
-			(at 154.94 73.66 0)
+			(at 97.79 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2784,7 +4420,7 @@
 			)
 		)
 		(property "Description" "Dual-Channel High-Speed ESD Protection, SC-70"
-			(at 160.02 78.74 0)
+			(at 92.71 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2807,6 +4443,88 @@
 			(project "reed-level-sensing"
 				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ead345d4-969a-4464-aebf-e0b761d852af")
+		(property "Reference" "R10"
+			(at 160.02 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 155.702 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "934f62ff-9f79-4f68-b387-38b00c21f9a8")
+		)
+		(pin "1"
+			(uuid "00dc5cb1-1771-4208-9143-62a0f27b715c")
+		)
+		(instances
+			(project "reed-level-sensing"
+				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2888,6 +4606,88 @@
 			(project "reed-level-sensing"
 				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Reed")
+		(at 168.91 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb4f8af2-c90b-4ae9-80ef-d028422c6c0a")
+		(property "Reference" "SW6"
+			(at 171.45 110.4899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Reed"
+			(at 171.45 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 168.91 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "reed switch"
+			(at 168.91 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c06c90fe-234d-4302-bdea-b90d021fa520")
+		)
+		(pin "1"
+			(uuid "98279e73-6470-4c7f-bc66-0bf1023fea67")
+		)
+		(instances
+			(project "reed-level-sensing"
+				(path "/086557d6-8e32-4f63-9de7-81f5f99a7949"
+					(reference "SW6")
 					(unit 1)
 				)
 			)
