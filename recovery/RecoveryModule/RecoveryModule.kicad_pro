@@ -684,18 +684,6 @@
     [
       "b6b72f04-29c7-469e-8041-4fbed201ed61",
       "Power Interface"
-    ],
-    [
-      "d2d393a3-49a6-41cd-be13-5c9719604a59",
-      "Boot"
-    ],
-    [
-      "ef00dcef-20a1-43d1-a0bc-b8194ae6f5c8",
-      "STM RESET"
-    ],
-    [
-      "1c0185e5-9cf7-473e-9c9e-11fa3359f586",
-      "Flash Module"
     ]
   ],
   "text_variables": {},
