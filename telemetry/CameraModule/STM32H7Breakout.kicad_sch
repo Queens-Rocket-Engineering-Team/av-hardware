@@ -2,17 +2,12 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid "07b5f413-49d3-4304-bf67-3bc410336e45")
+	(uuid "a9b14424-8df0-400c-a3a8-d1233716e160")
 	(paper "A4")
 	(title_block
-		(title "Camera Module")
+		(title "STM32H7 Breakout Circuitry")
 		(company "Queen's Rocket Engineering Team")
+		(comment 1 "Contributors:")
 	)
 	(lib_symbols)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )

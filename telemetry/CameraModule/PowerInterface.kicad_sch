@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "98be30f2-e007-45f9-b6c7-3cb4bea34bea")
+	(paper "A4")
+	(title_block
+		(title "Power Interface")
+		(company "Queen's Rocket Engineering Team")
+		(comment 1 "Contributors:")
+	)
+	(lib_symbols)
+)

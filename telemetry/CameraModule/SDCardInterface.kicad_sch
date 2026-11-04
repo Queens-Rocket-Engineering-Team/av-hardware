@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "37ed6ae6-da8a-4ef0-9669-f295658486a1")
+	(paper "A4")
+	(title_block
+		(title "SD Card Interface")
+		(company "Queen's Rocket Engineering Team")
+		(comment 1 "Contributors:")
+	)
+	(lib_symbols)
+)
