@@ -7,7 +7,7 @@
 	(title_block
 		(title "STM32F1 Breakout Circuitry")
 		(company "Queen's Rocket Engineering Team")
-		(comment 1 "Contributors: ")
+		(comment 1 "Contributors: , Hao Yang Hin, Jeevan Sanchez, Edward Sicoe")
 	)
 	(lib_symbols
 		(symbol "Device:C"

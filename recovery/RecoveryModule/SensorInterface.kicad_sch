@@ -7,7 +7,7 @@
 	(title_block
 		(title "Sensor Interface Circuitry")
 		(company "Queen's Rocket Engineering Team")
-		(comment 1 "Contributors: ")
+		(comment 1 "Contributors: Edward Sicoe")
 	)
 	(lib_symbols
 		(symbol "Device:C"

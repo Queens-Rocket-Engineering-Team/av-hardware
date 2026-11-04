@@ -26,7 +26,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "19bbdc55-007f-4e71-95b5-945613d5355f")
-		(property "Sheetname" "Charge Control"
+		(property "Sheetname" "PyroControl"
 			(at 41.91 99.6184 0)
 			(show_name no)
 			(do_not_autoplace no)
