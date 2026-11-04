@@ -1360,6 +1360,16 @@
 		)
 		(uuid "dbe9fcdc-7a49-4be8-be5f-40385090c549")
 	)
+	(text "add GPS daughter board connector\n- ESD, decoupling, status LED, plz. "
+		(exclude_from_sim no)
+		(at 41.91 155.448 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de81cbdd-24a2-4229-be12-a66f29e184ce")
+	)
 	(junction
 		(at 156.21 86.36)
 		(diameter 0)

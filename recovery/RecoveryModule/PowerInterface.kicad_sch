@@ -2091,6 +2091,17 @@
 		)
 		(uuid "63db0f5a-a89f-448c-983b-556f1470f8a2")
 	)
+	(text "review notes: \n\nmove USB to STM32F1 breakout, just use a \"USB_VBUS\" net label. \n\nTLV757P cap placement should  be 4.7u -> 100n. HF decoupling closer to the IC.\n\nadd the PCIE/edge connector symbol, copy it over from the LCM/Hydra\n\nim going to add a battery protection + monitoring circuit\n"
+		(exclude_from_sim no)
+		(at 172.974 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c090e43c-baf3-4fc8-86e9-28cf8912fbb2")
+	)
 	(text "Vs 	= 3.3 V\nVf 	= 2.0 V\nI  	= 20 mA = 0.02 A\nR  	= 1.3 / 0.02 = 65 R (~100 R)"
 		(exclude_from_sim no)
 		(at 40.386 153.924 0)
