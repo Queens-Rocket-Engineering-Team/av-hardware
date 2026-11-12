@@ -1,0 +1,246 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ed88821d-2e34-46b9-8740-9f5e3400515c")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 39.37 88.9)
+		(size 48.26 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "70ea0f8d-56b7-4ef7-bd81-fbfd8a622781")
+		(property "Sheetname" "Switches"
+			(at 39.37 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switches.kicad_sch"
+			(at 39.37 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AV102" input
+			(at 39.37 91.44 180)
+			(uuid "3140af6a-09c2-4461-8bfa-c41af2dc3363")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AV201" input
+			(at 39.37 93.98 180)
+			(uuid "397d7cf0-c253-4194-9460-ddd0d479c94e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AV202" input
+			(at 39.37 96.52 180)
+			(uuid "0bbce316-3c75-42ec-a023-30bea22dfdb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AV203" input
+			(at 39.37 99.06 180)
+			(uuid "76e288cb-8547-4153-a134-6de50a597b0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AV204" input
+			(at 39.37 101.6 180)
+			(uuid "e51a8582-6e81-4259-bc27-e1b173e9c5a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AV205" input
+			(at 39.37 104.14 180)
+			(uuid "39c1385f-9da8-4e3d-9218-2cc330719eed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "switchboard_cad"
+				(path "/ed88821d-2e34-46b9-8740-9f5e3400515c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 31.75)
+		(size 48.26 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f6b3e97e-ffb7-4bb5-86c2-3d0caa38d249")
+		(property "Sheetname" "ESP32 Breakout"
+			(at 38.1 31.0384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32Breakout.kicad_sch"
+			(at 38.1 66.6246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ARM" input
+			(at 38.1 36.83 180)
+			(uuid "2641c32a-4e0c-4b52-a453-9164784ee7a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IGNITION" input
+			(at 38.1 39.37 180)
+			(uuid "fe57d244-1d7e-46ee-b151-5da42c614abd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AV102" input
+			(at 38.1 41.91 180)
+			(uuid "b4dada76-3369-4539-8528-ac0a02e781ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AV201" input
+			(at 38.1 44.45 180)
+			(uuid "aa860886-6030-4b31-9001-c68bc0915b74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AV202" input
+			(at 38.1 46.99 180)
+			(uuid "60b246cb-e8f9-4814-940b-51e98397d7f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AV203" input
+			(at 38.1 49.53 180)
+			(uuid "63335504-fbbc-4f4d-8ee3-80b2ba27a0d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AV204" input
+			(at 38.1 52.07 180)
+			(uuid "ab52cfb0-96a2-4563-94d7-8cc7a75c22d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AV205" input
+			(at 38.1 54.61 180)
+			(uuid "cbea14e0-0956-4734-bc34-5ff9d7ae65a4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "switchboard_cad"
+				(path "/ed88821d-2e34-46b9-8740-9f5e3400515c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
