@@ -1883,17 +1883,17 @@
 	)
 	(global_label "VBATT"
 		(shape input)
-		(at 129.54 110.49 270)
+		(at 129.54 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "255083b2-ec3f-4299-9836-eeeaa6bc035e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 118.8576 90)
+			(at 137.9076 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1901,23 +1901,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "VBATT"
 		(shape input)
-		(at 228.6 109.22 270)
+		(at 228.6 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6eebc5da-87cb-49e4-b753-cc10e586a3e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.6 117.5876 90)
+			(at 236.9676 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1925,7 +1925,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
