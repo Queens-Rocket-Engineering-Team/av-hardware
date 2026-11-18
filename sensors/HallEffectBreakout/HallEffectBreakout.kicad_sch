@@ -1948,15 +1948,15 @@
 		)
 		(uuid "fbddb022-3597-4ca0-ac86-db970fbfe069")
 	)
-	(label "SCL"
-		(at 158.75 105.41 180)
+	(label "SDA"
+		(at 158.75 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "190aa649-8ead-4a86-a3fd-50261587a484")
+		(uuid "4a3c65f4-511c-4e93-be4d-fb4a7ba9a933")
 	)
 	(label "SCL"
 		(at 146.05 90.17 0)
@@ -1979,6 +1979,16 @@
 		(uuid "a02422e5-e97e-472a-9024-c28a4e124976")
 	)
 	(label "SCL"
+		(at 158.75 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a051ebea-7745-40e6-902a-a575d900287d")
+	)
+	(label "SCL"
 		(at 232.41 67.31 270)
 		(effects
 			(font
@@ -1987,16 +1997,6 @@
 			(justify right bottom)
 		)
 		(uuid "a191bde1-8023-4039-ab0e-068bcc243b5a")
-	)
-	(label "SDA"
-		(at 158.75 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c5151573-5173-422f-952c-e077bcf4e332")
 	)
 	(label "SCL"
 		(at 205.74 96.52 180)
