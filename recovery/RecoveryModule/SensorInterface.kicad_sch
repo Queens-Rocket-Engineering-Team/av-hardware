@@ -1027,207 +1027,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2779,9 +2578,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "- Independent I2C bus @ 100KHz\n	- I2C address 0x5C\n- 260-1260hPa range (33,000ft max)"
+	(text "- I2C0 @ 400KHz\n	- I2C address 0x5C\n- 260-1260hPa range (33,000ft max)\n- Interrupt is active-high"
 		(exclude_from_sim no)
-		(at 20.066 86.868 0)
+		(at 20.066 87.63 0)
 		(effects
 			(font
 				(face "Cambria")
@@ -2820,7 +2619,7 @@
 		)
 		(uuid "7fb80d23-10ca-4b8d-8fdc-cc6a95c4faf8")
 	)
-	(text "- Independent I2C Bus @ 1MHz\n	- I2C address 0x6A\n- ±32g accelerometer\n- ±4000dps gyroscope\n- Interrupt is active-high"
+	(text "- I2C0 @ 400KHz\n	- I2C address 0x6A\n- ±32g accelerometer\n- ±4000dps gyroscope\n- Interrupt is active-high"
 		(exclude_from_sim no)
 		(at 22.86 29.21 0)
 		(effects
@@ -2845,16 +2644,6 @@
 			(justify left)
 		)
 		(uuid "c8bf2b23-4a62-46ee-923b-3945d9ebb310")
-	)
-	(text "LED ON when GPS RST is high (LED high when GPS is not in reset state)"
-		(exclude_from_sim no)
-		(at 169.418 150.368 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "cea57d0d-a4b5-4881-912e-1ef6690dd733")
 	)
 	(text "Inertial Measurement Unit (IMU)"
 		(exclude_from_sim no)
@@ -2901,12 +2690,6 @@
 		(uuid "22d47a2c-b42e-4036-8919-daad1369d616")
 	)
 	(junction
-		(at 130.81 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35dd6190-686e-4a19-b76e-5460a7e9b634")
-	)
-	(junction
 		(at 121.92 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2941,12 +2724,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46fa21dd-3830-44a3-aebb-e27c3d4ba238")
-	)
-	(junction
-		(at 110.49 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4995ef28-eec6-47a5-b64f-e0530b64a1f4")
 	)
 	(junction
 		(at 125.73 66.04)
@@ -3295,16 +3072,6 @@
 			(type default)
 		)
 		(uuid "38f17d8d-624c-416e-b16d-876caa3fd533")
-	)
-	(wire
-		(pts
-			(xy 110.49 162.56) (xy 110.49 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eaaacf6-a66f-4b75-b563-6d45b8782cbf")
 	)
 	(wire
 		(pts
@@ -3938,16 +3705,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 162.56) (xy 130.81 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "beeba417-3da0-40b0-a7d0-4c33f7da66ac")
-	)
-	(wire
-		(pts
 			(xy 118.11 64.77) (xy 118.11 66.04)
 		)
 		(stroke
@@ -4236,245 +3993,115 @@
 		)
 		(uuid "fe44cebe-bbee-4d6c-880e-518b73ce77c6")
 	)
-	(global_label "BARO_SDA"
-		(shape input)
+	(hierarchical_label "SDA0"
+		(shape bidirectional)
 		(at 80.01 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "08b4f728-c514-40ef-bba3-723ff2b2defd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.53 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "3cbeb9bc-f5c9-4ce6-be40-18bc50de6142")
 	)
-	(global_label "SCL_GPS"
+	(hierarchical_label "SDA0"
+		(shape bidirectional)
+		(at 80.01 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54cc1d97-5f96-4791-8208-18e8e3bd8bf1")
+	)
+	(hierarchical_label "IMU_INT"
+		(shape output)
+		(at 156.21 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75d24de1-52de-421b-83f8-103b709e2b7f")
+	)
+	(hierarchical_label "SCL1"
 		(shape input)
 		(at 156.21 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "09ce4c2b-3dd3-4326-b889-29243e908f57")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.4199 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "8028df4e-4395-427f-8ad5-1e5dc338762a")
 	)
-	(global_label "IMU_INT"
-		(shape input)
-		(at 156.21 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52e26179-54e4-48bf-b95a-d61f4ec09922")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.4524 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IMU_SCL"
-		(shape input)
-		(at 80.01 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "58d550d5-895f-499d-9edf-5a63862b1bc0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.1629 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SDA_GPS"
+	(hierarchical_label "SDA1"
 		(shape bidirectional)
 		(at 156.21 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "70462302-c7aa-4cc8-a7af-62be27ff9e90")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.5917 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "8d62f69a-40bd-4159-b691-469e90b9f003")
 	)
-	(global_label "BARO_INT"
-		(shape input)
-		(at 156.21 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a50c8f8a-34a5-4ac5-8003-3dc752b280c8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.0248 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPS_~{RST}"
-		(shape input)
-		(at 125.73 167.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b3619ff8-0ee3-4735-a49f-ff163800bc77")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.8794 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GPS_EXTINT"
-		(shape input)
-		(at 125.73 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b4ac53ad-eb8f-4782-9757-98df1695a467")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.6613 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "BARO_SCL"
+	(hierarchical_label "SCL0"
 		(shape input)
 		(at 80.01 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c18c471d-f662-47be-8a27-008e69be8fc4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.5905 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "8e4dad9e-e0ac-4fa6-926b-59a22b3ab605")
 	)
-	(global_label "IMU_SDA"
+	(hierarchical_label "SCL0"
 		(shape input)
-		(at 80.01 36.83 180)
-		(fields_autoplaced yes)
+		(at 80.01 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e52d57fc-b11c-496a-b952-d629906b5ea5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.1024 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "aa7cc973-621d-4f69-bc40-9120b7a4bbc2")
+	)
+	(hierarchical_label "GPS_~{RST}"
+		(shape input)
+		(at 125.73 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "bd50b29a-eabf-4286-a589-4583308259be")
+	)
+	(hierarchical_label "BARO_INT"
+		(shape output)
+		(at 156.21 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb6e0f79-0dfc-4161-9909-08a107b92fd4")
+	)
+	(hierarchical_label "GPS_EXTINT"
+		(shape output)
+		(at 125.73 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5529508-37ed-48fe-b394-1a6b7e5d4359")
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -4992,97 +4619,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 121.92 162.56 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4655965d-62ea-4c91-b965-d6978ef8b539")
-		(property "Reference" "D12"
-			(at 121.92 158.242 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 121.92 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "GREEN"
-			(at 121.92 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 121.92 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d935874a-80ad-47d8-90b1-56ecf6a01a8d")
-		)
-		(pin "1"
-			(uuid "82fdff57-7e72-4ecd-a7f5-f399310727e6")
-		)
-		(instances
-			(project "RecoveryModule"
-				(path "/f5559905-3d14-4f45-bf0c-f0a694ff610f/4e8b7de7-a1e2-4c06-a701-24e6f3262c10"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 111.76 190.5 0)
 		(mirror y)
@@ -5504,88 +5040,6 @@
 			(project "RecoveryModule"
 				(path "/f5559905-3d14-4f45-bf0c-f0a694ff610f/4e8b7de7-a1e2-4c06-a701-24e6f3262c10"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 114.3 162.56 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7b0c9cb3-d604-42c1-99a1-9d6b79f70c71")
-		(property "Reference" "R30"
-			(at 112.522 160.528 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "150R"
-			(at 111.76 162.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 164.338 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 114.3 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea1bae0a-b5d5-4664-b40b-af3c674dd3f6")
-		)
-		(pin "2"
-			(uuid "cf430642-ac05-40ff-8d37-053d58e9938c")
-		)
-		(instances
-			(project "RecoveryModule"
-				(path "/f5559905-3d14-4f45-bf0c-f0a694ff610f/4e8b7de7-a1e2-4c06-a701-24e6f3262c10"
-					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -6120,7 +5574,7 @@
 		(dnp no)
 		(uuid "c3f4b65d-831a-40c3-97d4-fe1a1e858d50")
 		(property "Reference" "C23"
-			(at 123.952 152.654 0)
+			(at 124.46 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6131,7 +5585,7 @@
 			)
 		)
 		(property "Value" "4u7"
-			(at 124.206 154.94 0)
+			(at 124.46 158.496 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
