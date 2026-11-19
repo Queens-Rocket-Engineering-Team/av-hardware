@@ -103,52 +103,6 @@
 		)
 	)
 	(sheet
-		(at 145.415 101.6)
-		(size 18.415 24.13)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "85c17e1f-23d2-4a79-ae2f-642462302084")
-		(property "Sheetname" "battery"
-			(at 145.415 100.8884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "battery.kicad_sch"
-			(at 145.415 126.3146 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "RecoveryModule"
-				(path "/f5559905-3d14-4f45-bf0c-f0a694ff610f"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 172.72 100.33)
 		(size 67.31 44.45)
 		(exclude_from_sim no)
