@@ -661,7 +661,7 @@
         "uuid": "f5559905-3d14-4f45-bf0c-f0a694ff610f"
       }
     ],
-    "used_designators": "R27,R30-31,J3,#FLG1,#PWR25,#PWR41-54,#PWR130,#PWR139-140,TP4,U11-13,C25-32",
+    "used_designators": "R27,R30-34,J3,#FLG1,L1,#PWR19-20,#PWR25,#PWR41-55,#PWR130,#PWR139-140,TP4,U6,U11-13,C9,C11-15,C25-37",
     "variants": []
   },
   "sheets": [
@@ -684,6 +684,10 @@
     [
       "b6b72f04-29c7-469e-8041-4fbed201ed61",
       "Power Interface"
+    ],
+    [
+      "85c17e1f-23d2-4a79-ae2f-642462302084",
+      "battery"
     ]
   ],
   "text_variables": {},
