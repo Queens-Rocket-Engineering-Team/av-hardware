@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "086557d6-8e32-4f63-9de7-81f5f99a7949")
 	(paper "A4")
+	(title_block
+		(title "Reed Level Sensing Board")
+		(company "Queen's Rocket Engineering Team")
+		(comment 1 "Jonah Berr, Batu Aksu, Owen Lupton")
+	)
 	(lib_symbols
 		(symbol "Analog_ADC:ADS1013IDGS"
 			(exclude_from_sim no)
@@ -1938,6 +1943,32 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "- add GND symbol to pin 4 (or anywhere on the GND rail)\n\n- add 3.3V symbol to pin 1 (or anywhere on the 3.3V/VDD rail)\n\n- delete the DNP block (J3, sw symbols) for readability\n\n- re-calculate LED resistor value (vdd-vf) / i (i = 2.5mA, vf = 3.0V)\n\n- make note of the I2C addr of ADS1013 I2C address when ADDR is pulled low\n"
+		(exclude_from_sim no)
+		(at 29.718 131.572 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(color 125 0 16 1)
+			)
+			(justify left)
+		)
+		(uuid "2db454a2-9b52-4f54-944f-10ff3e034fca")
+	)
+	(text "review notes"
+		(exclude_from_sim no)
+		(at 38.608 119.38 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+				(color 125 0 16 1)
+			)
+		)
+		(uuid "4b4b6260-207f-4dda-b7c4-a12b94aa6553")
+	)
 	(junction
 		(at 71.12 73.66)
 		(diameter 0)
@@ -2059,7 +2090,7 @@
 		(uuid "abc9d616-1aec-4f6f-9973-6a661a3202c6")
 	)
 	(junction
-		(at 123.19 88.9)
+		(at 128.27 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c53c4498-3e9d-48f3-a9c2-78c571f44817")
@@ -2298,7 +2329,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 88.9) (xy 118.11 88.9)
+			(xy 128.27 88.9) (xy 118.11 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2678,7 +2709,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 134.62) (xy 123.19 134.62)
+			(xy 151.13 134.62) (xy 128.27 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2708,7 +2739,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 134.62) (xy 123.19 88.9)
+			(xy 128.27 134.62) (xy 128.27 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2725,16 +2756,6 @@
 			(type default)
 		)
 		(uuid "8039dfbf-f531-4485-90c2-54c66da5bfc2")
-	)
-	(wire
-		(pts
-			(xy 128.27 88.9) (xy 123.19 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80a106d6-fdd2-4339-94be-ed644195ac1b")
 	)
 	(wire
 		(pts
@@ -2815,6 +2836,16 @@
 			(type default)
 		)
 		(uuid "92e62cdf-e368-4412-a8e5-02a2316067f3")
+	)
+	(wire
+		(pts
+			(xy 82.55 68.58) (xy 82.55 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e57890-e762-4609-aa30-90705c061e9a")
 	)
 	(wire
 		(pts
@@ -2958,7 +2989,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 73.66) (xy 82.55 77.47)
+			(xy 82.55 76.2) (xy 82.55 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3158,16 +3189,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 76.2) (xy 91.44 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2d4d4cb-4275-4de3-b269-29ae61fc2b0a")
-	)
-	(wire
-		(pts
 			(xy 92.71 88.9) (xy 92.71 95.25)
 		)
 		(stroke
@@ -3188,7 +3209,7 @@
 	)
 	(global_label "SIG"
 		(shape input)
-		(at 91.44 76.2 180)
+		(at 92.71 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3198,7 +3219,7 @@
 		)
 		(uuid "0ceb6c78-0f91-445d-bc0e-57df736fce9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.3705 76.2 0)
+			(at 86.6405 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5073,7 +5094,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 82.55 69.85 0)
+		(at 82.55 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5081,10 +5102,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a0f6b539-65fa-4d06-8fac-182b2f0c8df0")
 		(property "Reference" "R2"
-			(at 85.09 68.5799 0)
+			(at 84.328 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5095,7 +5115,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 85.09 71.1199 0)
+			(at 84.328 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5106,7 +5126,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 80.772 69.85 90)
+			(at 80.772 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5117,7 +5137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 69.85 0)
+			(at 82.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5128,7 +5148,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 82.55 69.85 0)
+			(at 82.55 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
