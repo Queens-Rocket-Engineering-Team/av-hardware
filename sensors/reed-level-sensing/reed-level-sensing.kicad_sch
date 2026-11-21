@@ -1943,9 +1943,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "- add GND symbol to pin 4 (or anywhere on the GND rail)\n\n- add 3.3V symbol to pin 1 (or anywhere on the 3.3V/VDD rail)\n\n- delete the DNP block (J3, sw symbols) for readability\n\n- re-calculate LED resistor value (vdd-vf) / i (i = 2.5mA, vf = 3.0V)\n\n- make note of the I2C addr of ADS1013 I2C address when ADDR is pulled low\n"
+	(text "- add GND symbol to pin 4 (or anywhere on the GND rail)\n\n- add 3.3V symbol to pin 1 (or anywhere on the 3.3V/VDD rail)\n\n- for layout, keep in mind that C1 must be as close as possible to pins 8,3 of U1\n\n- delete the DNP block (J3, sw symbols) for readability\n\n- re-calculate LED resistor value (vdd-vf) / i (i = 2.5mA, vf = 3.0V)\n\n- make note of the I2C addr of ADS1013 I2C address when ADDR is pulled low\n\n- remember -> the resistor ladder itself produces our output, therefore the signal shouldn't come out of the connector,\nit should come out of the ladder instead\n\n- replace connector symbol with a 02x10 (the 10th pin we will leave not-connected, this option just makes the board more compact)\n\n- add a pull-down (100k) resistor between signal and GND. this is needed to establish a defined voltage for the ADC\nsince the switches are normally open"
 		(exclude_from_sim no)
-		(at 29.718 131.572 0)
+		(at 29.718 142.748 0)
 		(effects
 			(font
 				(size 1.27 1.27)
