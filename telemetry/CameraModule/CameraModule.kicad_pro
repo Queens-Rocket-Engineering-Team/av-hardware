@@ -661,7 +661,7 @@
         "uuid": "07b5f413-49d3-4304-bf67-3bc410336e45"
       }
     ],
-    "used_designators": "R2-6,J2,D1-5,#PWR6-16,U2,C5-11,TP1-5,FB1-2",
+    "used_designators": "R2-6,J1-2,D1-5,#PWR6-16,U2,C5-11,TP1-5,FB1-2",
     "variants": []
   },
   "sheets": [
@@ -684,6 +684,10 @@
     [
       "47d6aafa-1b6a-4ef5-9fed-37618fe2acfe",
       "Camera Daughter Board Interface"
+    ],
+    [
+      "92bfcdfb-2ff2-487f-8b91-08da312be516",
+      "Transmission Link"
     ]
   ],
   "text_variables": {},

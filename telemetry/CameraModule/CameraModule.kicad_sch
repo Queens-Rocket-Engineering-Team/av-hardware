@@ -11,7 +11,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 166.37 101.6)
+		(at 127 97.79)
 		(size 60.325 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27,7 +27,7 @@
 		)
 		(uuid "47d6aafa-1b6a-4ef5-9fed-37618fe2acfe")
 		(property "Sheetname" "Camera Daughter Board Interface"
-			(at 166.37 100.8884 0)
+			(at 127 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38,7 +38,7 @@
 			)
 		)
 		(property "Sheetfile" "CamInterface.kicad_sch"
-			(at 166.37 140.2846 0)
+			(at 127 136.4746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57,7 +57,7 @@
 		)
 	)
 	(sheet
-		(at 69.85 45.72)
+		(at 30.48 41.91)
 		(size 60.325 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -73,7 +73,7 @@
 		)
 		(uuid "4a1dfd1b-b903-4721-9f7b-d6ee82e540b2")
 		(property "Sheetname" "Power Interface"
-			(at 69.85 45.0084 0)
+			(at 30.48 41.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -84,7 +84,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerInterface.kicad_sch"
-			(at 69.85 84.4046 0)
+			(at 30.48 80.5946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -103,7 +103,7 @@
 		)
 	)
 	(sheet
-		(at 165.1 45.72)
+		(at 125.73 41.91)
 		(size 60.325 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -119,7 +119,7 @@
 		)
 		(uuid "6a5ba2b3-f5fa-4bb5-8a2c-959865801ec6")
 		(property "Sheetname" "STM32H7 Breakout"
-			(at 165.1 45.0084 0)
+			(at 125.73 41.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -130,7 +130,7 @@
 			)
 		)
 		(property "Sheetfile" "STM32H7Breakout.kicad_sch"
-			(at 165.1 84.4046 0)
+			(at 125.73 80.5946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -149,7 +149,53 @@
 		)
 	)
 	(sheet
-		(at 71.12 101.6)
+		(at 205.74 68.58)
+		(size 60.325 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "92bfcdfb-2ff2-487f-8b91-08da312be516")
+		(property "Sheetname" "Transmission Link"
+			(at 205.74 67.8684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TransmissionLink.kicad_sch"
+			(at 205.74 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CameraModule"
+				(path "/07b5f413-49d3-4304-bf67-3bc410336e45"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 97.79)
 		(size 60.325 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -165,7 +211,7 @@
 		)
 		(uuid "b3125fd4-ac3c-48d9-a74e-594cfc3ae95d")
 		(property "Sheetname" "SD Card Interface"
-			(at 71.12 100.8884 0)
+			(at 31.75 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -176,7 +222,7 @@
 			)
 		)
 		(property "Sheetfile" "SDCardInterface.kicad_sch"
-			(at 71.12 140.2846 0)
+			(at 31.75 136.4746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
