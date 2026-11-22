@@ -3993,7 +3993,7 @@
 		)
 		(uuid "fe44cebe-bbee-4d6c-880e-518b73ce77c6")
 	)
-	(hierarchical_label "SDA0"
+	(hierarchical_label "I2C1_SDA"
 		(shape bidirectional)
 		(at 80.01 102.87 180)
 		(effects
@@ -4004,7 +4004,7 @@
 		)
 		(uuid "3cbeb9bc-f5c9-4ce6-be40-18bc50de6142")
 	)
-	(hierarchical_label "SDA0"
+	(hierarchical_label "I2C1_SDA"
 		(shape bidirectional)
 		(at 80.01 36.83 180)
 		(effects
@@ -4026,7 +4026,7 @@
 		)
 		(uuid "75d24de1-52de-421b-83f8-103b709e2b7f")
 	)
-	(hierarchical_label "SCL1"
+	(hierarchical_label "I2C2_SCL"
 		(shape input)
 		(at 156.21 172.72 0)
 		(effects
@@ -4037,7 +4037,7 @@
 		)
 		(uuid "8028df4e-4395-427f-8ad5-1e5dc338762a")
 	)
-	(hierarchical_label "SDA1"
+	(hierarchical_label "I2C2_SDA"
 		(shape bidirectional)
 		(at 156.21 177.8 0)
 		(effects
@@ -4048,7 +4048,7 @@
 		)
 		(uuid "8d62f69a-40bd-4159-b691-469e90b9f003")
 	)
-	(hierarchical_label "SCL0"
+	(hierarchical_label "I2C1_SCL"
 		(shape input)
 		(at 80.01 99.06 180)
 		(effects
@@ -4059,7 +4059,7 @@
 		)
 		(uuid "8e4dad9e-e0ac-4fa6-926b-59a22b3ab605")
 	)
-	(hierarchical_label "SCL0"
+	(hierarchical_label "I2C1_SCL"
 		(shape input)
 		(at 80.01 34.29 180)
 		(effects
