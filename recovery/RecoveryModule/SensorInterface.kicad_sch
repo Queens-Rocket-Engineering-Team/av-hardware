@@ -4567,6 +4567,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C22461202"
+			(at 88.9 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "0544e97c-4526-4b46-9777-1b7ff39e9020")
 		)
@@ -4833,6 +4844,17 @@
 			)
 		)
 		(property "Description" ""
+			(at 88.9 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C3010792"
 			(at 88.9 101.6 0)
 			(hide yes)
 			(show_name no)
