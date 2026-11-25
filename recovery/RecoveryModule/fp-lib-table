@@ -2,4 +2,6 @@
 	(version 7)
 	(lib (name "LPS27HHWTR") (type "KiCad") (uri "${KIPRJMOD}/footprints/LPS27HHWTR") (options "") (descr ""))
 	(lib (name "LSM6DSV32XTR") (type "KiCad") (uri "${KIPRJMOD}/footprints/LSM6DSV32XTR") (options "") (descr ""))
+	(lib (name "UWT1V101MCL1GS") (type "KiCad") (uri "${KIPRJMOD}/footprints/UWT1V101MCL1GS") (options "") (descr ""))
+	(lib (name "UCM1V470MCL1GS") (type "KiCad") (uri "${KIPRJMOD}/footprints/UCM1V470MCL1GS") (options "") (descr ""))
 )
