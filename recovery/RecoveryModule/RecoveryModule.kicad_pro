@@ -703,7 +703,7 @@
         "uuid": "f5559905-3d14-4f45-bf0c-f0a694ff610f"
       }
     ],
-    "used_designators": "C45-49,U11,U17-18,#PWR77-79,#FLG1",
+    "used_designators": "#PWR80-83,C50-53,U6,U18,R45-47",
     "variants": []
   },
   "sheets": [
