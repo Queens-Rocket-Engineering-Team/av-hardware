@@ -5814,7 +5814,7 @@
 	)
 	(text "moved from PB4/5\nless remap (no interfernce w JTAG)"
 		(exclude_from_sim no)
-		(at 139.7 147.066 0)
+		(at 147.32 146.812 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -5824,6 +5824,19 @@
 			(justify left)
 		)
 		(uuid "5f72b4e4-fbc7-4944-9b52-fb284930b1d0")
+	)
+	(text "remap TIM2_CH2\n\n"
+		(exclude_from_sim no)
+		(at 160.782 166.37 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1111)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "61518fc5-9ec7-472a-b8da-f4d5cf089a39")
 	)
 	(text "Cstray = 3pF\nCL = 12pF\n\nCL = C/2 + Cstray\nC = 2(CL-Cstray)\nC = 2(9) = 18pF"
 		(exclude_from_sim no)
@@ -5862,6 +5875,19 @@
 			(justify left)
 		)
 		(uuid "839a16f0-8c1b-4cc4-93ab-8a6a0f39fdc4")
+	)
+	(text "remap TIM2_CH2\n\n"
+		(exclude_from_sim no)
+		(at 161.29 153.67 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1111)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9250b722-822e-480f-83aa-ae73b6531a5a")
 	)
 	(text "Load Capacitance Calculation"
 		(exclude_from_sim no)
@@ -5914,6 +5940,19 @@
 			(justify left)
 		)
 		(uuid "bd35bd0d-51ec-43ca-93c9-c7c411a00cba")
+	)
+	(text "remap TIM3_CH1\n\n"
+		(exclude_from_sim no)
+		(at 161.29 156.21 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.1111)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "bfced56a-c1bf-4cf5-be2d-3963d4bf96a0")
 	)
 	(text "LED Indicators"
 		(exclude_from_sim no)
@@ -6183,6 +6222,12 @@
 		(uuid "aa2bf100-9a2f-4259-9179-75131822e388")
 	)
 	(junction
+		(at 240.03 232.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b18c7ee1-d2e2-44aa-81c1-0939eddef47c")
+	)
+	(junction
 		(at 52.07 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6301,10 +6346,6 @@
 		(uuid "2b3831f8-f15d-455a-8eb3-1c666a48db45")
 	)
 	(no_connect
-		(at 189.23 153.67)
-		(uuid "3f4574ed-6eef-409c-880f-d626c11990a1")
-	)
-	(no_connect
 		(at 337.82 130.81)
 		(uuid "43b3d338-f01a-4672-88f5-3e92187117f1")
 	)
@@ -6347,10 +6388,6 @@
 	(no_connect
 		(at 337.82 151.13)
 		(uuid "8fdca422-4cba-4fbe-a409-38fc50e91454")
-	)
-	(no_connect
-		(at 189.23 156.21)
-		(uuid "94d9d02a-7da3-43b7-8d9f-e29adb057a2b")
 	)
 	(no_connect
 		(at 337.82 168.91)
@@ -6888,6 +6925,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 232.41) (xy 255.27 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eee113e-ec93-4626-8155-18da245c3a1c")
+	)
+	(wire
+		(pts
 			(xy 306.07 77.47) (xy 318.77 77.47)
 		)
 		(stroke
@@ -7125,6 +7172,16 @@
 			(type default)
 		)
 		(uuid "60003a76-3725-42f0-a6ad-8a8ce2adba8a")
+	)
+	(wire
+		(pts
+			(xy 240.03 234.95) (xy 240.03 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60011865-9cb6-4984-a075-596d7765afd7")
 	)
 	(wire
 		(pts
@@ -7505,6 +7562,16 @@
 			(type default)
 		)
 		(uuid "88776c6c-77f3-40aa-82fb-ed9cbad654da")
+	)
+	(wire
+		(pts
+			(xy 172.72 156.21) (xy 189.23 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a15d9cf-33ec-4a69-932d-0757b962c4e0")
 	)
 	(wire
 		(pts
@@ -8028,6 +8095,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 153.67) (xy 189.23 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce368852-5437-4a63-9a19-a76e60ea903d")
+	)
+	(wire
+		(pts
 			(xy 66.04 57.15) (xy 66.04 58.42)
 		)
 		(stroke
@@ -8428,13 +8505,23 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 232.41) (xy 255.27 232.41)
+			(xy 236.22 232.41) (xy 240.03 232.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f56aba3b-5d6e-4d5f-bbfc-9b6078b9c024")
+	)
+	(wire
+		(pts
+			(xy 236.22 234.95) (xy 240.03 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6429edc-8898-4657-9fe1-dd9e4b9862b5")
 	)
 	(wire
 		(pts
@@ -8586,6 +8673,16 @@
 		)
 		(uuid "2680ff4b-26c6-4956-9c9b-003a1cbd4a23")
 	)
+	(label "BUZZ_B"
+		(at 236.22 240.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "285899a3-bbc0-4bac-b35b-1170bf6030d1")
+	)
 	(label "CAN_TX"
 		(at 241.3 148.59 180)
 		(effects
@@ -8705,6 +8802,16 @@
 			(justify left bottom)
 		)
 		(uuid "6a3d4559-ed3f-4757-9c3d-46dff5aeec93")
+	)
+	(label "BUZZ_B"
+		(at 172.72 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b6a0b9d-5cae-4457-ba1c-18a0e885a227")
 	)
 	(label "MISO_FL"
 		(at 241.3 133.35 180)
@@ -8906,6 +9013,16 @@
 		)
 		(uuid "df514501-a042-4771-8ba6-7ec439ecd90e")
 	)
+	(label "BUZZ_A"
+		(at 172.72 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e241f91e-6611-4b41-be23-af450d74fa0e")
+	)
 	(label "STM_RESET"
 		(at 172.72 118.11 0)
 		(effects
@@ -8966,77 +9083,15 @@
 		)
 		(uuid "fa07a184-c84a-47b5-a017-e55e0cf7485f")
 	)
-	(global_label "BUZZ_B"
-		(shape input)
-		(at 236.22 240.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2f19948c-4dc4-4c80-94e4-db91882a15a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.4623 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "BUZZ_NSLEEP"
-		(shape input)
-		(at 236.22 234.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a9d561e7-2f3c-407d-afa1-15b2def11566")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.3284 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "BUZZ_A"
-		(shape input)
+	(label "BUZZ_A"
 		(at 236.22 237.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "ac0c7262-97f1-4578-8bf4-9b41ade2d2e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.2809 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "fe8bd98a-5e54-44cb-a26f-9da53537ca1e")
 	)
 	(hierarchical_label "BCK_PG"
 		(shape input)
