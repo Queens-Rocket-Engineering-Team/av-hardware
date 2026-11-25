@@ -4,4 +4,5 @@
 	(lib (name "LSM6DSV32XTR") (type "KiCad") (uri "${KIPRJMOD}/symbols/LSM6DSV32XTR.kicad_sym") (options "") (descr ""))
 	(lib (name "TPM8873") (type "KiCad") (uri "${KIPRJMOD}/symbols/TPM8873.kicad_sym") (options "") (descr ""))
 	(lib (name "TCAN1051") (type "KiCad") (uri "C:/Users/ASUS/Downloads/ul_TCAN1051HGVDR/KiCADv6/2026-11-22_20-04-53.kicad_sym") (options "") (descr ""))
+	(lib (name "DS2438Z") (type "KiCad") (uri "${KIPRJMOD}/symbols/DS2438Z.kicad_sym") (options "") (descr ""))
 )
