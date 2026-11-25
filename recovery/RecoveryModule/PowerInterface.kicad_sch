@@ -7998,7 +7998,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 184.912 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8988,7 +8988,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220n"
+		(property "Value" "220nF"
 			(at 95.758 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9069,7 +9069,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47u"
+		(property "Value" "47uF"
 			(at 137.922 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9150,7 +9150,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uH"
 			(at 149.86 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9711,7 +9711,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 139.446 139.192 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11751,7 +11751,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 162.052 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12416,7 +12416,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 110.236 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14002,7 +14002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 84.582 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14677,7 +14677,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56p"
+		(property "Value" "56pF"
 			(at 148.844 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14916,7 +14916,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100u"
+		(property "Value" "100uF"
 			(at 121.412 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15171,7 +15171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 149.606 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15807,7 +15807,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 162.56 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16213,7 +16213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 196.342 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16449,7 +16449,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22u"
+		(property "Value" "22uF"
 			(at 173.482 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
