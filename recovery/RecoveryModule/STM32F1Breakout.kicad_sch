@@ -9322,6 +9322,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C23186"
+			(at 74.93 189.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dbc06d23-f3d3-4304-8192-0f8c352a7834")
 		)
@@ -9574,6 +9585,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C23186"
+			(at 74.93 196.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "34a3fcfa-599c-4e41-ab3e-7c0bf92cecf6")
 		)
@@ -9645,6 +9667,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 260.35 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C1779"
 			(at 260.35 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -9736,6 +9769,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 172.72 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C2290"
 			(at 172.72 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10063,6 +10107,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C14663"
+			(at 250.19 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4f8919cc-5426-4796-b1d6-e697704d0d15")
 		)
@@ -10135,6 +10190,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 55.88 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
+			(at 55.88 151.13 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10226,6 +10292,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C14663"
+			(at 306.07 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4271849f-4878-4d59-bce5-97047e89a216")
 		)
@@ -10272,7 +10349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" ""
 			(at 232.41 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -10297,6 +10374,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 231.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C2843785"
 			(at 231.14 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10394,6 +10482,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C14663"
+			(at 238.76 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c88e6bd2-b8be-4376-a566-88907da2d9ff")
 		)
@@ -10475,6 +10574,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C25804"
+			(at 311.15 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d965e0d8-dade-4068-940c-2f39dc395670")
 		)
@@ -10523,7 +10633,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" ""
 			(at 103.1748 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10546,6 +10656,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 104.14 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
 			(at 104.14 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10626,6 +10747,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 378.46 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
+			(at 378.46 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10827,6 +10959,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C25804"
+			(at 73.66 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9915b84e-9470-4a9c-81c1-53400dbddf3d")
 		)
@@ -10897,6 +11040,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 85.09 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C23138"
+			(at 85.09 182.88 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11147,7 +11301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" ""
 			(at 250.19 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11172,6 +11326,17 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 248.92 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C2843785"
 			(at 248.92 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11337,6 +11502,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 340.36 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
 			(at 340.36 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11932,6 +12108,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C25819"
+			(at 299.72 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d4c9d1aa-f80c-43e1-b3b9-6b5d10b84b62")
 		)
@@ -12081,6 +12268,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 182.88 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C23185"
+			(at 182.88 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12327,6 +12525,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C31850"
+			(at 299.72 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b84e6c1c-17c7-4782-a368-1a1cf7f9c111")
 		)
@@ -12485,6 +12694,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 93.98 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C12624"
 			(at 93.98 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -12731,6 +12951,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C556661"
+			(at 345.44 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "589312d4-1395-4d34-a7f2-2cef57b584ee")
 		)
@@ -12779,7 +13010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" ""
 			(at 261.3152 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -12802,6 +13033,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 260.35 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
 			(at 260.35 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12893,6 +13135,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C1647"
+			(at 294.64 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab14a19b-df92-4152-8613-554beb6f97e9")
 		)
@@ -12973,6 +13226,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C556661"
+			(at 313.69 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "10fdf6a6-722c-4f5e-b4e3-10a03b5d759b")
 		)
@@ -13022,7 +13286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RGP0020D_VQFN-20-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias"
+		(property "Footprint" ""
 			(at 187.325 240.03 90)
 			(hide yes)
 			(show_name no)
@@ -13045,6 +13309,17 @@
 			)
 		)
 		(property "Description" "Buzzer, polarized"
+			(at 186.69 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "  445-2525-1-ND"
 			(at 186.69 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -13103,7 +13378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "D8_TEX"
+		(property "Footprint" ""
 			(at 42.8752 266.7 0)
 			(hide yes)
 			(show_name no)
@@ -13126,6 +13401,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 41.91 262.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
 			(at 41.91 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -13206,6 +13492,17 @@
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 54.61 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "952-3233-ND"
+			(at 54.61 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13348,7 +13645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" ""
 			(at 357.1748 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13371,6 +13668,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 358.14 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
 			(at 358.14 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -13498,7 +13806,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 259.08 237.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13509,7 +13817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+		(property "Footprint" ""
 			(at 256.2352 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -13532,6 +13840,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 255.27 236.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
 			(at 255.27 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -13612,6 +13931,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 182.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C22808"
+			(at 182.88 60.96 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14168,6 +14498,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C25804"
+			(at 306.07 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bb68b038-182b-480c-b38c-9edb40627147")
 		)
@@ -14216,7 +14557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" ""
 			(at 209.2452 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -14239,6 +14580,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 208.28 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
 			(at 208.28 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14477,7 +14829,7 @@
 		(at 167.64 240.03 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -14495,7 +14847,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 171.45 241.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14506,7 +14858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_DSG0008A_WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+		(property "Footprint" ""
 			(at 168.6052 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -14529,6 +14881,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C45783"
 			(at 167.64 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -14620,6 +14983,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C25804"
+			(at 66.04 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9fb91aa9-c3d9-48ea-8857-7b76ac75f5e5")
 		)
@@ -14691,6 +15065,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 227.33 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
 			(at 227.33 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -14782,6 +15167,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C14663"
+			(at 215.9 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f356a1e2-fc0f-4580-bb20-c1d00ada88dc")
 		)
@@ -14853,6 +15249,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 307.34 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C1647"
 			(at 307.34 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -15100,7 +15507,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "W25Q128JVS"
+		(property "JLCPCB" "C113767"
 			(at 90.17 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -15466,6 +15873,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C111340"
+			(at 172.72 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b45e69fd-6af3-41f3-859d-dae6444c610f")
 		)
@@ -15514,7 +15932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" ""
 			(at 113.3348 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15537,6 +15955,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 114.3 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C28323"
 			(at 114.3 62.23 0)
 			(hide yes)
 			(show_name no)

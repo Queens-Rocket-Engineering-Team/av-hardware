@@ -5185,9 +5185,9 @@
 		)
 		(uuid "ea705655-3308-4169-b320-b02fdce24141")
 	)
-	(text "A feed-forward capacitor is used to improve load transient response, forming a high-pass filter\\\n\nCff < (Vout * Cout) / 120 * R32 * sqrt(Vref/Vout)\nC15 < (5 * 88u) / 120 * 100k * 0.4472 <~ 81.99 pF \n\nAccounting for capacitor derating and looking at standard E12 values:\nCff = 56pF (well below upper limit)"
+	(text "A feed-forward capacitor is used to improve load transient response, forming a high-pass filter\\\n\nCff < (Vout * Cout) / 120 * R32 * sqrt(Vref/Vout)\nC15 < (5 * 88u) / 120 * 100k * 0.4472 <~ 81.99 pF \n\nAccounting for capacitor derating and looking at standard E12 values:\nCff = 56pF (well below upper limit) \nSelected 47pF for availability"
 		(exclude_from_sim no)
-		(at 149.098 194.564 0)
+		(at 149.606 194.564 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5589,6 +5589,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d29b10be-67d0-43ac-b5c7-64247af732d4")
+	)
+	(junction
+		(at 156.21 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6a4254f-2495-412c-bdb0-113cec916898")
 	)
 	(junction
 		(at 81.28 248.92)
@@ -6115,6 +6121,16 @@
 			(type default)
 		)
 		(uuid "31844162-a7b7-443d-b62c-f1ad5cbebffc")
+	)
+	(wire
+		(pts
+			(xy 156.21 39.37) (xy 158.75 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31bf8622-66c2-45f6-a681-6c4e8b74c3c1")
 	)
 	(wire
 		(pts
@@ -7408,7 +7424,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 39.37) (xy 158.75 39.37)
+			(xy 134.62 39.37) (xy 156.21 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7805,6 +7821,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C12624"
+			(at 303.53 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b696c226-d22f-4850-a13c-be3b3022809e")
 		)
@@ -7981,7 +8008,7 @@
 		(at 181.61 130.81 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -7998,7 +8025,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 184.912 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8032,6 +8059,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 181.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C45783"
 			(at 181.61 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8213,6 +8251,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C12624"
+			(at 382.27 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d9d94b64-01d7-483d-bed2-0d20350c5571")
 		)
@@ -8285,6 +8334,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 245.11 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
 			(at 245.11 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -8377,6 +8437,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C22808"
+			(at 303.53 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bd8f0027-a4e1-4c58-ba3d-7ba2dbfd899c")
 		)
@@ -8448,6 +8519,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 195.58 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
 			(at 195.58 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -8530,6 +8612,17 @@
 		)
 		(property "Description" "Dual ideal diode device with automatic switchover"
 			(at 224.79 261.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C3235556"
+			(at 224.79 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8629,6 +8722,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 124.46 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C4190"
 			(at 124.46 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -8988,7 +9092,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220nF"
+		(property "Value" "220n"
 			(at 95.758 132.334 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9022,6 +9126,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 92.71 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C21120"
 			(at 92.71 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9069,7 +9184,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47uF"
+		(property "Value" "47u"
 			(at 137.922 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9103,6 +9218,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 134.62 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "493-14540-2-ND"
 			(at 134.62 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -9184,6 +9310,17 @@
 		)
 		(property "Description" "Inductor"
 			(at 149.86 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C181721"
+			(at 149.86 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9437,6 +9574,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C25803"
+			(at 154.94 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0f5dcafc-9214-47a2-970c-10b2b68a7315")
 		)
@@ -9508,6 +9656,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 92.71 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
 			(at 92.71 256.54 0)
 			(hide yes)
 			(show_name no)
@@ -9711,7 +9870,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 139.446 139.192 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9746,6 +9905,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 142.24 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
+			(at 142.24 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9837,6 +10007,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C1779"
+			(at 349.25 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8527a0a1-c5fc-4bd8-9e16-ceefebc393f2")
 		)
@@ -9909,6 +10090,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 339.09 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
 			(at 339.09 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -10009,6 +10201,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C20917"
+			(at 86.36 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7472b3e4-a1ce-4978-b0d1-f3a17717f6a3")
 		)
@@ -10094,6 +10297,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C4190"
+			(at 170.18 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "826d72af-af8e-4a6a-88cd-35baa3e6e80a")
 		)
@@ -10165,6 +10379,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 307.34 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C1779"
 			(at 307.34 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -10412,6 +10637,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C14663"
+			(at 317.5 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a5ada717-5f06-44ed-ba1c-5ef184bc01a6")
 		)
@@ -10500,6 +10736,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C25804"
+			(at 104.14 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a822a5e6-edf9-4543-a5fc-4a92f95aa94a")
 		)
@@ -10548,7 +10795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Schrack-RT2-FormC_RM5mm"
+		(property "Footprint" ""
 			(at 109.22 127 0)
 			(hide yes)
 			(show_name no)
@@ -10649,6 +10896,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 205.74 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
 			(at 205.74 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -11074,6 +11332,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C14663"
+			(at 177.8 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a81af926-7848-4795-b46c-fa8599f9d644")
 		)
@@ -11142,7 +11411,18 @@
 				)
 			)
 		)
-		(property "Description" "7.4V"
+		(property "Description" "7.4V 2s"
+			(at 46.99 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C431092"
 			(at 46.99 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -11223,6 +11503,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 106.68 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25803"
+			(at 106.68 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11470,6 +11761,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C22808"
+			(at 267.97 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "034c823d-59f2-4803-8753-bf0073509e73")
 		)
@@ -11636,6 +11938,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C23138"
+			(at 382.27 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "94c9a663-c118-4fe4-8c40-48af38b1defc")
 		)
@@ -11734,7 +12047,7 @@
 		(at 158.75 130.81 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -11751,7 +12064,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 162.052 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11785,6 +12098,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 158.75 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C45783"
 			(at 158.75 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -11955,6 +12279,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C25962"
+			(at 154.94 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "90ded829-74ca-47ae-809d-ac93c50feac1")
 		)
@@ -12055,6 +12390,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 156.21 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b6fc107-704b-4eff-a3cf-05ae6ccf369a")
+		(property "Reference" "#FLG01"
+			(at 156.21 37.465 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 156.21 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 156.21 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "129dc59f-e3b3-4d4d-948b-976d4d37880a")
+		)
+		(instances
+			(project "RecoveryModule"
+				(path "/f5559905-3d14-4f45-bf0c-f0a694ff610f/b6b72f04-29c7-469e-8041-4fbed201ed61"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 138.43 259.08 0)
 		(unit 1)
@@ -12110,6 +12524,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 138.43 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
 			(at 138.43 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -12192,6 +12617,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 236.22 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C4190"
 			(at 236.22 246.38 0)
 			(hide yes)
 			(show_name no)
@@ -12379,6 +12815,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C12624"
+			(at 285.75 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "79943c89-48f4-47eb-8be2-e19a70230599")
 		)
@@ -12416,7 +12863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 110.236 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12450,6 +12897,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 116.84 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C28323"
 			(at 116.84 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -12544,6 +13002,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 328.93 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C12624"
+			(at 328.93 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12719,6 +13188,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C22808"
+			(at 285.75 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b45de772-2dcc-428a-a5a8-adb711735268")
 		)
@@ -12789,6 +13269,17 @@
 			)
 		)
 		(property "Description" "Simple Switcher Synchronous Buck Regulator, Vin=3.8-36V, Iout=3A, F=400kHz, Adjustable output voltage, HSOP-8"
+			(at 128.27 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C841384"
 			(at 128.27 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -12979,6 +13470,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C3235556"
+			(at 158.75 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9e7f1a91-e2a3-45e1-919f-0d0dfc835685")
 		)
@@ -13069,6 +13571,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 346.71 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C23138"
 			(at 346.71 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13401,6 +13914,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C2103"
+			(at 100.33 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9af0463c-1940-426a-97b4-a1ed5e43f42b")
 		)
@@ -13551,6 +14075,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 132.08 259.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
 			(at 132.08 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -13965,6 +14500,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C12624"
+			(at 346.71 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "69a8b09f-5886-40a1-b9f9-29e8697231ba")
 		)
@@ -14002,7 +14548,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 84.582 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14036,6 +14582,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 81.28 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C15850"
 			(at 81.28 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -14195,6 +14752,17 @@
 			)
 		)
 		(property "Description" "1A Low IQ Small Size Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 330.2 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C485517"
 			(at 330.2 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -14559,6 +15127,17 @@
 				)
 			)
 		)
+		(property "Digikey" "MINISMDC200F/16-2TR-ND"
+			(at 63.5 39.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "03eea10d-326f-4212-b3be-075137fcb1d8")
 		)
@@ -14640,6 +15219,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C22775"
+			(at 77.47 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "576bb5a9-fa2a-4e8d-bc87-02c09376d286")
 		)
@@ -14677,7 +15267,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56pF"
+		(property "Value" "47p"
 			(at 148.844 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14711,6 +15301,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 146.05 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C1671"
 			(at 146.05 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -14792,6 +15393,17 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 128.27 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C5539215"
+			(at 128.27 39.37 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14916,7 +15528,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "100u"
 			(at 121.412 43.942 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14950,6 +15562,17 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 118.11 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "  493-2203-2-ND "
 			(at 118.11 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15053,6 +15676,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C12624"
+			(at 364.49 59.69 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a27c65d4-b799-4b36-ac80-2a9de7cd4d81")
 		)
@@ -15134,6 +15768,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C25804"
+			(at 81.28 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ab02e878-516d-461b-94f6-7e1da7fd6454")
 		)
@@ -15171,7 +15816,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 149.606 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15205,6 +15850,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 146.05 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C15850"
 			(at 146.05 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15532,6 +16188,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C23138"
+			(at 328.93 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5f35608c-ce30-4636-997f-9d7f7be6794a")
 		)
@@ -15691,6 +16358,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C14663"
+			(at 81.28 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "46e9088d-afeb-4701-b328-6e2b52e26f9b")
 		)
@@ -15807,7 +16485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 162.56 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15841,6 +16519,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 158.75 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C14663"
 			(at 158.75 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15933,6 +16622,17 @@
 				)
 			)
 		)
+		(property "JLCPCB" "C23138"
+			(at 364.49 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "59f76ba9-c1b5-4099-b325-2621f3e9e50c")
 		)
@@ -16007,6 +16707,17 @@
 		)
 		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
 			(at 91.44 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C82079"
+			(at 91.44 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16196,7 +16907,7 @@
 		(at 193.04 130.81 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -16213,7 +16924,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 196.342 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16247,6 +16958,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 193.04 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C45783"
 			(at 193.04 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -16432,7 +17154,7 @@
 		(at 170.18 130.81 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -16449,7 +17171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 173.482 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16483,6 +17205,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 170.18 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C45783"
 			(at 170.18 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -16563,6 +17296,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 85.09 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C25804"
+			(at 85.09 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16722,6 +17466,17 @@
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 10.0Vr, SMA(DO-214AC)"
 			(at 77.47 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey" "SMAJ10ALFTR-ND"
+			(at 77.47 43.18 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16893,6 +17648,17 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 267.97 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB" "C12624"
+			(at 267.97 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
