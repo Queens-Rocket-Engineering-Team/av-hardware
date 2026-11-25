@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "07b5f413-49d3-4304-bf67-3bc410336e45")
-	(paper "A4")
+	(paper "A3")
 	(title_block
 		(title "Camera Module")
 		(company "Queen's Rocket Engineering Team")
@@ -11,7 +11,53 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 127 97.79)
+		(at 271.145 168.275)
+		(size 60.325 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1071520c-e81a-4e02-885c-c213712b35c7")
+		(property "Sheetname" "FPD Deserialization"
+			(at 271.145 167.5634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Deserialization.kicad_sch"
+			(at 271.145 206.9596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CameraModule"
+				(path "/07b5f413-49d3-4304-bf67-3bc410336e45"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 183.515 64.135)
 		(size 60.325 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27,7 +73,7 @@
 		)
 		(uuid "47d6aafa-1b6a-4ef5-9fed-37618fe2acfe")
 		(property "Sheetname" "Camera Daughter Board Interface"
-			(at 127 97.0784 0)
+			(at 183.515 63.4234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38,7 +84,7 @@
 			)
 		)
 		(property "Sheetfile" "CamInterface.kicad_sch"
-			(at 127 136.4746 0)
+			(at 183.515 102.8196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57,7 +103,7 @@
 		)
 	)
 	(sheet
-		(at 30.48 41.91)
+		(at 95.885 112.395)
 		(size 60.325 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -73,7 +119,7 @@
 		)
 		(uuid "4a1dfd1b-b903-4721-9f7b-d6ee82e540b2")
 		(property "Sheetname" "Power Interface"
-			(at 30.48 41.1984 0)
+			(at 95.885 111.6834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -84,7 +130,7 @@
 			)
 		)
 		(property "Sheetfile" "PowerInterface.kicad_sch"
-			(at 30.48 80.5946 0)
+			(at 95.885 151.0796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -103,7 +149,7 @@
 		)
 	)
 	(sheet
-		(at 125.73 41.91)
+		(at 184.15 140.97)
 		(size 60.325 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -118,8 +164,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "6a5ba2b3-f5fa-4bb5-8a2c-959865801ec6")
-		(property "Sheetname" "STM32N6 Breakout"
-			(at 125.73 41.1984 0)
+		(property "Sheetname" "STM32H7 Breakout"
+			(at 184.15 140.2584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -129,8 +175,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "STM32N6Breakout.kicad_sch"
-			(at 125.73 80.5946 0)
+		(property "Sheetfile" "STM32H7Breakout.kicad_sch"
+			(at 184.15 179.6546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -149,7 +195,7 @@
 		)
 	)
 	(sheet
-		(at 205.74 68.58)
+		(at 270.51 113.03)
 		(size 60.325 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -165,7 +211,7 @@
 		)
 		(uuid "92bfcdfb-2ff2-487f-8b91-08da312be516")
 		(property "Sheetname" "Transmission Link"
-			(at 205.74 67.8684 0)
+			(at 270.51 112.3184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -176,7 +222,7 @@
 			)
 		)
 		(property "Sheetfile" "TransmissionLink.kicad_sch"
-			(at 205.74 107.2646 0)
+			(at 270.51 151.7146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -195,7 +241,7 @@
 		)
 	)
 	(sheet
-		(at 31.75 97.79)
+		(at 97.155 168.275)
 		(size 60.325 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -211,7 +257,7 @@
 		)
 		(uuid "b3125fd4-ac3c-48d9-a74e-594cfc3ae95d")
 		(property "Sheetname" "SD Card Interface"
-			(at 31.75 97.0784 0)
+			(at 97.155 167.5634 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -222,7 +268,7 @@
 			)
 		)
 		(property "Sheetfile" "SDCardInterface.kicad_sch"
-			(at 31.75 136.4746 0)
+			(at 97.155 206.9596 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -661,7 +661,7 @@
         "uuid": "07b5f413-49d3-4304-bf67-3bc410336e45"
       }
     ],
-    "used_designators": "R2-6,J1-2,D1-5,#PWR6-16,U2,C5-11,TP1-5,FB1-2",
+    "used_designators": "R2-6,J1-2,D1-5,#PWR6-16,U2-4,C5-11,TP1-5,FB1-2",
     "variants": []
   },
   "sheets": [
@@ -675,7 +675,7 @@
     ],
     [
       "6a5ba2b3-f5fa-4bb5-8a2c-959865801ec6",
-      "STM32N6 Breakout"
+      "STM32H7 Breakout"
     ],
     [
       "b3125fd4-ac3c-48d9-a74e-594cfc3ae95d",
@@ -688,6 +688,10 @@
     [
       "92bfcdfb-2ff2-487f-8b91-08da312be516",
       "Transmission Link"
+    ],
+    [
+      "1071520c-e81a-4e02-885c-c213712b35c7",
+      "FPD Deserialization"
     ]
   ],
   "text_variables": {},
