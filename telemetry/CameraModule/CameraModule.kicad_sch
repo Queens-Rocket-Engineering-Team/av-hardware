@@ -118,7 +118,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "6a5ba2b3-f5fa-4bb5-8a2c-959865801ec6")
-		(property "Sheetname" "STM32H7 Breakout"
+		(property "Sheetname" "STM32N6 Breakout"
 			(at 125.73 41.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -129,7 +129,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "STM32H7Breakout.kicad_sch"
+		(property "Sheetfile" "STM32N6Breakout.kicad_sch"
 			(at 125.73 80.5946 0)
 			(show_name no)
 			(do_not_autoplace no)

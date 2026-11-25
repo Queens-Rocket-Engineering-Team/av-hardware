@@ -5,7 +5,7 @@
 	(uuid "a9b14424-8df0-400c-a3a8-d1233716e160")
 	(paper "A4")
 	(title_block
-		(title "STM32H7 Breakout Circuitry")
+		(title "STM32N6 Breakout Circuitry")
 		(company "Queen's Rocket Engineering Team")
 		(comment 1 "Contributors:")
 	)

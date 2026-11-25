@@ -2673,6 +2673,18 @@
 		)
 		(uuid "d94245c8-dd01-429b-b156-0215c132969b")
 	)
+	(text "Ferrite Bead Calculations\n\nImax = In6 + Iov + Isd + Ids + Irf (mA)\n= 400 + 120 + 200 + 250 + 350 =~ 1.32 A\n\nIrated = 2.5(Imax) = 3.3 A\n\nVdrop should be no greater than 40mV. \n\nDCR = 40mV / Imax =  30m\n\n\n\n"
+		(exclude_from_sim no)
+		(at 90.424 143.002 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "78e8180e-b68c-412c-b78b-a1c3b983f6b2")
+	)
 	(text "Power Indication\n"
 		(exclude_from_sim no)
 		(at 167.894 100.838 0)
@@ -3035,7 +3047,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 81.28) (xy 107.95 82.55)
+			(xy 107.95 78.74) (xy 107.95 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3585,7 +3597,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 73.66) (xy 107.95 69.85)
+			(xy 107.95 71.12) (xy 107.95 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4633,7 +4645,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 107.95 77.47 0)
+		(at 107.95 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4643,7 +4655,7 @@
 		(dnp no)
 		(uuid "54bc3bb4-0fea-4a8f-970a-4897859d3f3b")
 		(property "Reference" "C2"
-			(at 110.998 78.232 0)
+			(at 110.998 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4654,7 +4666,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 110.998 80.2641 0)
+			(at 110.998 77.7241 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4665,7 +4677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 108.9152 81.28 0)
+			(at 108.9152 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4676,7 +4688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 77.47 0)
+			(at 107.95 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4687,7 +4699,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 107.95 77.47 0)
+			(at 107.95 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6122,7 +6134,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "BLM21SP181SZ1D"
 			(at 100.3808 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6295,7 +6307,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "10uF"
 			(at 139.192 76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
