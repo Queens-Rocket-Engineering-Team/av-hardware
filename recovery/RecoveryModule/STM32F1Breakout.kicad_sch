@@ -9289,7 +9289,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 74.93 187.452 90)
 			(hide yes)
 			(show_name no)
@@ -9370,7 +9370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CP2102N-A02-GQFN28R"
+		(property "Value" "TLV75733PDBV"
 			(at 325.628 176.784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9552,7 +9552,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 74.93 195.072 90)
 			(hide yes)
 			(show_name no)
@@ -10541,7 +10541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 309.372 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -10723,7 +10723,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 378.46 65.532 90)
 			(hide yes)
 			(show_name no)
@@ -10804,7 +10804,7 @@
 				)
 			)
 		)
-		(property "Value" "TPM8837C-SO1R"
+		(property "Value" "DS2438Z_T_R"
 			(at 213.36 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10926,7 +10926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 71.882 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -11016,7 +11016,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 85.09 184.658 90)
 			(hide yes)
 			(show_name no)
@@ -11291,7 +11291,7 @@
 				)
 			)
 		)
-		(property "Value" "WS2812B"
+		(property "Value" "WS2812C"
 			(at 248.92 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11301,7 +11301,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_5x5mm_CW"
 			(at 250.19 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11479,7 +11479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 338.582 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -12075,7 +12075,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 297.942 133.35 90)
 			(hide yes)
 			(show_name no)
@@ -13080,7 +13080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "841d2406-690c-41d2-8016-8de7666c6e81")
-		(property "Reference" "C14"
+		(property "Reference" "C55"
 			(at 288.544 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13155,7 +13155,7 @@
 		(instances
 			(project "RecoveryModule"
 				(path "/f5559905-3d14-4f45-bf0c-f0a694ff610f/b7f3c5a1-bdbb-400a-b422-f975e6eba6f2"
-					(reference "C14")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -13907,7 +13907,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 182.88 62.738 90)
 			(hide yes)
 			(show_name no)
@@ -14465,7 +14465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 304.292 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -14950,7 +14950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 64.262 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -15204,7 +15204,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e03f1863-c311-45d8-b360-040b2a867bdb")
-		(property "Reference" "C16"
+		(property "Reference" "C56"
 			(at 309.88 213.614 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15279,7 +15279,7 @@
 		(instances
 			(project "RecoveryModule"
 				(path "/f5559905-3d14-4f45-bf0c-f0a694ff610f/b7f3c5a1-bdbb-400a-b422-f975e6eba6f2"
-					(reference "C16")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -15921,7 +15921,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "100u"
 			(at 116.586 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15932,7 +15932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "UWT1V101MCL1GS:PCAP_6.3x7.7-ELECT_NCA"
 			(at 113.3348 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -15965,7 +15965,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C28323"
+		(property "JLCPCB" ""
 			(at 114.3 62.23 0)
 			(hide yes)
 			(show_name no)

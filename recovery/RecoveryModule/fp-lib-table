@@ -4,4 +4,5 @@
 	(lib (name "LSM6DSV32XTR") (type "KiCad") (uri "${KIPRJMOD}/footprints/LSM6DSV32XTR") (options "") (descr ""))
 	(lib (name "UWT1V101MCL1GS") (type "KiCad") (uri "${KIPRJMOD}/footprints/UWT1V101MCL1GS") (options "") (descr ""))
 	(lib (name "UCM1V470MCL1GS") (type "KiCad") (uri "${KIPRJMOD}/footprints/UCM1V470MCL1GS") (options "") (descr ""))
+	(lib (name "436500200") (type "KiCad") (uri "${KIPRJMOD}/footprints/436500200") (options "") (descr ""))
 )
