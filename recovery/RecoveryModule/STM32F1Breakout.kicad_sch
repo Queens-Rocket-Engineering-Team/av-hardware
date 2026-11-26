@@ -9370,7 +9370,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TLV75733PDBV"
+		(property "Value" "CP2102N"
 			(at 325.628 176.784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9735,7 +9735,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 172.72 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10349,7 +10349,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_5x5mm_CW"
 			(at 232.41 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -11106,7 +11106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D8_TEX"
+		(property "Footprint" "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm"
 			(at 58.42 252.73 0)
 			(hide yes)
 			(show_name no)
@@ -12660,7 +12660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 93.98 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -13080,7 +13080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "841d2406-690c-41d2-8016-8de7666c6e81")
-		(property "Reference" "C55"
+		(property "Reference" "C14"
 			(at 288.544 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13155,7 +13155,7 @@
 		(instances
 			(project "RecoveryModule"
 				(path "/f5559905-3d14-4f45-bf0c-f0a694ff610f/b7f3c5a1-bdbb-400a-b422-f975e6eba6f2"
-					(reference "C55")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -13286,7 +13286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:Buzzer_TDK_PS1240P02BT_D12.2mm_H6.5mm"
 			(at 187.325 240.03 90)
 			(hide yes)
 			(show_name no)
@@ -14829,7 +14829,7 @@
 		(at 167.64 240.03 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -15204,7 +15204,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e03f1863-c311-45d8-b360-040b2a867bdb")
-		(property "Reference" "C56"
+		(property "Reference" "C16"
 			(at 309.88 213.614 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15279,7 +15279,7 @@
 		(instances
 			(project "RecoveryModule"
 				(path "/f5559905-3d14-4f45-bf0c-f0a694ff610f/b7f3c5a1-bdbb-400a-b422-f975e6eba6f2"
-					(reference "C56")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -15738,7 +15738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_QFP:TQFP-44_10x10mm_P0.8mm"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 300.99 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -15829,7 +15829,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 172.72 60.96 0)
 			(hide yes)
 			(show_name no)

@@ -2717,7 +2717,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "436500200:CONN_SD-43650-001_02_MOL"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
 			(at 232.41 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -2778,7 +2778,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ10A")
-		(at 190.5 101.6 90)
+		(at 190.5 101.6 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2796,7 +2796,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SMAJ10A"
@@ -2807,11 +2807,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 195.58 101.6 0)
+			(at 185.42 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2822,7 +2822,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 190.5 102.87 0)
+			(at 190.5 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3170,7 +3170,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 196.85 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3273,7 +3273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 97.79 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4427,7 +4427,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 204.47 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -5273,7 +5273,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ10A")
-		(at 90.17 102.87 90)
+		(at 90.17 102.87 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5291,7 +5291,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "SMAJ10A"
@@ -5302,11 +5302,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 95.25 102.87 0)
+			(at 85.09 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5317,7 +5317,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 90.17 104.14 0)
+			(at 90.17 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5566,7 +5566,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 102.87 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5644,7 +5644,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "436500200:CONN_SD-43650-001_02_MOL"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
 			(at 133.35 74.93 0)
 			(hide yes)
 			(show_name no)
