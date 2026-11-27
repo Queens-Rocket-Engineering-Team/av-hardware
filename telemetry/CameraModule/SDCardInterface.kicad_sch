@@ -7,7 +7,7 @@
 	(title_block
 		(title "SD Card Interface")
 		(company "Queen's Rocket Engineering Team")
-		(comment 1 "Contributors:")
+		(comment 1 "Contributors: Johann Samuel Nana")
 	)
 	(lib_symbols
 		(symbol "Connector:Micro_SD_Card_Det1"
@@ -803,8 +803,8 @@
 		)
 	)
 	(rectangle
-		(start 29.972 61.722)
-		(end 73.152 106.172)
+		(start 40.132 68.072)
+		(end 83.312 112.522)
 		(stroke
 			(width 0)
 			(type default)
@@ -816,7 +816,7 @@
 	)
 	(text "DAT2: \n\nDAT3:\n\nCMD:\n\nVDD: 3.3V from ORing\n\nCLK:\n\nVSS:\n\nDAT0:\n\nDAT1:\n\nDET:\n\nSHIELD: GND\n\n-Pull up resitors according to the table on claude\n-Hierarchy labels for the pins to go on the STM32"
 		(exclude_from_sim no)
-		(at 31.75 82.55 0)
+		(at 41.91 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -825,45 +825,57 @@
 		)
 		(uuid "0f06fb37-e086-45cf-bd03-99d75efde27f")
 	)
+	(text "notes\n\n- learn SDMMC. what does each pin do. what is the sequence of events for a write. \n(i.e. 1st pull CMD low, etc.., and write notes on the Notion)\n\n- let's add a ferrite bead to add more stability to the power-line\n- let's also add a power switch to switch SD card on/off (start with a GPIO-driven PFET)\n- let's add ESD protection since these connections are coming off-board (TPD6E001)\n- let's add an LED that uses the DET pin to turn on when the card is in (this pin is active low)"
+		(exclude_from_sim no)
+		(at 118.364 59.182 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "ae5f5d99-85bc-4593-a1ec-88ec34dbb992")
+	)
 	(junction
-		(at 138.43 88.9)
+		(at 148.59 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "549c6e60-8460-45ea-882b-9bb4dea4375d")
 	)
 	(junction
-		(at 215.9 104.14)
+		(at 226.06 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5752ddf9-6631-48cf-b1a7-9260f5c9f65e")
 	)
 	(junction
-		(at 125.73 88.9)
+		(at 135.89 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f3f3f6d-83f6-48d9-a5a7-a1ea5e600992")
 	)
 	(junction
-		(at 158.75 118.11)
+		(at 168.91 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "727d69be-3ce2-4ec3-ab91-74e91fbb18a3")
 	)
 	(junction
-		(at 125.73 96.52)
+		(at 135.89 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bca7410-edbc-47f9-9793-5738e9f3eb92")
 	)
 	(junction
-		(at 138.43 96.52)
+		(at 148.59 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a30a6ca1-b666-4403-a71f-8bb9f0e937ed")
 	)
 	(wire
 		(pts
-			(xy 113.03 96.52) (xy 125.73 96.52)
+			(xy 123.19 102.87) (xy 135.89 102.87)
 		)
 		(stroke
 			(width 0)
@@ -873,7 +885,17 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 118.11) (xy 215.9 118.11)
+			(xy 226.06 124.46) (xy 226.06 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b29bf5-80d0-4a13-baec-91f12e1211b7")
+	)
+	(wire
+		(pts
+			(xy 168.91 124.46) (xy 226.06 124.46)
 		)
 		(stroke
 			(width 0)
@@ -883,7 +905,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 93.98) (xy 158.75 93.98)
+			(xy 179.07 100.33) (xy 168.91 100.33)
 		)
 		(stroke
 			(width 0)
@@ -893,7 +915,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 88.9) (xy 138.43 88.9)
+			(xy 135.89 95.25) (xy 148.59 95.25)
 		)
 		(stroke
 			(width 0)
@@ -903,7 +925,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 104.14) (xy 212.09 104.14)
+			(xy 226.06 110.49) (xy 222.25 110.49)
 		)
 		(stroke
 			(width 0)
@@ -913,7 +935,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 88.9) (xy 125.73 88.9)
+			(xy 123.19 95.25) (xy 135.89 95.25)
 		)
 		(stroke
 			(width 0)
@@ -923,7 +945,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 96.52) (xy 138.43 96.52)
+			(xy 135.89 102.87) (xy 148.59 102.87)
 		)
 		(stroke
 			(width 0)
@@ -933,7 +955,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 93.98) (xy 158.75 118.11)
+			(xy 168.91 100.33) (xy 168.91 124.46)
 		)
 		(stroke
 			(width 0)
@@ -943,7 +965,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 88.9) (xy 138.43 88.9)
+			(xy 179.07 95.25) (xy 148.59 95.25)
 		)
 		(stroke
 			(width 0)
@@ -953,7 +975,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 96.52) (xy 146.05 96.52)
+			(xy 148.59 102.87) (xy 156.21 102.87)
 		)
 		(stroke
 			(width 0)
@@ -963,17 +985,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 104.14) (xy 215.9 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3ac9add-932d-407e-85cf-03cfd719c56b")
-	)
-	(wire
-		(pts
-			(xy 146.05 96.52) (xy 146.05 118.11)
+			(xy 156.21 102.87) (xy 156.21 124.46)
 		)
 		(stroke
 			(width 0)
@@ -983,17 +995,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 118.11) (xy 215.9 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8041cb8-565c-4f0d-b224-73cb38a425c1")
-	)
-	(wire
-		(pts
-			(xy 146.05 118.11) (xy 158.75 118.11)
+			(xy 156.21 124.46) (xy 168.91 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1003,7 +1005,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 86.36) (xy 168.91 86.36)
+			(xy 142.24 92.71) (xy 179.07 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1013,7 +1015,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Micro_SD_Card_Det1")
-		(at 191.77 91.44 0)
+		(at 201.93 97.79 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1024,7 +1026,7 @@
 		(fields_autoplaced yes)
 		(uuid "38a6dee1-a333-4dec-8a39-db950a88fc97")
 		(property "Reference" "J1"
-			(at 192.405 69.85 0)
+			(at 202.565 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1034,7 +1036,7 @@
 			)
 		)
 		(property "Value" "Micro_SD_Card_Det1"
-			(at 192.405 72.39 0)
+			(at 202.565 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1044,7 +1046,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:OnSemi_UDFN-16-1EP_1.35x3.3mm_P0.4mm_EP0.4x2.8mm"
-			(at 243.84 73.66 0)
+			(at 254 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1055,7 +1057,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
-			(at 191.77 88.9 0)
+			(at 201.93 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1066,7 +1068,7 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket with one card detection pin"
-			(at 191.77 91.44 0)
+			(at 201.93 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1117,7 +1119,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 138.43 92.71 0)
+		(at 148.59 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1128,7 +1130,7 @@
 		(fields_autoplaced yes)
 		(uuid "39429203-462b-4291-95ae-b93a7c7cbfd7")
 		(property "Reference" "C13"
-			(at 142.24 91.4399 0)
+			(at 152.4 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1139,7 +1141,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 142.24 93.9799 0)
+			(at 152.4 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1150,7 +1152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.3952 96.52 0)
+			(at 149.5552 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1161,7 +1163,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 92.71 0)
+			(at 148.59 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1172,7 +1174,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 138.43 92.71 0)
+			(at 148.59 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1199,7 +1201,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 125.73 92.71 0)
+		(at 135.89 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1210,7 +1212,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdb673e5-6031-48dd-b435-d5e3f54208b2")
 		(property "Reference" "C12"
-			(at 129.54 91.4399 0)
+			(at 139.7 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1221,7 +1223,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 129.54 93.9799 0)
+			(at 139.7 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1232,7 +1234,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 126.6952 96.52 0)
+			(at 136.8552 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1243,7 +1245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 92.71 0)
+			(at 135.89 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1254,7 +1256,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 125.73 92.71 0)
+			(at 135.89 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1281,7 +1283,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132.08 82.55 0)
+		(at 142.24 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1292,7 +1294,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfe59ea7-e10f-4892-9806-90debe607347")
 		(property "Reference" "R6"
-			(at 134.62 81.2799 0)
+			(at 144.78 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1303,7 +1305,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 134.62 83.8199 0)
+			(at 144.78 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1314,7 +1316,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 130.302 82.55 90)
+			(at 140.462 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1325,7 +1327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 82.55 0)
+			(at 142.24 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1336,7 +1338,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132.08 82.55 0)
+			(at 142.24 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1363,7 +1365,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 113.03 92.71 0)
+		(at 123.19 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1374,7 +1376,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd73ccad-c5f4-41c2-ba90-a9bcf9972a1e")
 		(property "Reference" "C14"
-			(at 116.84 91.4399 0)
+			(at 127 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1385,7 +1387,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 116.84 93.9799 0)
+			(at 127 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1396,7 +1398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.9952 96.52 0)
+			(at 124.1552 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1407,7 +1409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 92.71 0)
+			(at 123.19 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1418,7 +1420,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 113.03 92.71 0)
+			(at 123.19 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1445,7 +1447,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 104.14 90)
+		(at 226.06 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1456,7 +1458,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec41af33-5bbe-4736-80ad-3bb300b0999b")
 		(property "Reference" "#PWR015"
-			(at 226.06 104.14 0)
+			(at 226.06 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1467,18 +1469,18 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 104.1399 90)
+			(at 228.6 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 104.14 0)
+			(at 226.06 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1489,7 +1491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 104.14 0)
+			(at 226.06 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1500,7 +1502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 104.14 0)
+			(at 226.06 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
